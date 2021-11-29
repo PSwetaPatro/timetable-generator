@@ -5,7 +5,11 @@ from costs import check_hard_constraints, hard_constraints_cost, empty_space_gro
     free_hour
 import copy
 import math
+import os
 
+for d in ["scheduled_files", "solution_files"]:
+    if not os.path.exists(d):
+        os.mkdir(d)
 
 def initial_population(data, matrix, free, filled, groups_empty_space, teachers_empty_space, subjects_order):
     """
@@ -183,7 +187,7 @@ def mutate_ideal_spot(matrix, data, ind_class, free, filled, groups_empty_space,
             break
 
 
-def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order):
+def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file):
     """
     Evolutionary algorithm that tires to find schedule such that hard constraints are satisfied.
     It uses (1+1) evolutionary strategy with Stifel's notation.
@@ -205,7 +209,7 @@ def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teach
             loss_before, cost_classes, cost_teachers, cost_classrooms, cost_groups = hard_constraints_cost(matrix, data)
             if loss_before == 0 and check_hard_constraints(matrix, data) == 0:
                 print('Found optimal solution: \n')
-                show_timetable(matrix)
+                show_timetable(file, matrix)
                 break
 
             # sort classes by their loss, [(loss, class index)]
@@ -299,7 +303,7 @@ def simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers
             print('Iteration: {:4d} | Average cost: {:0.8f}'.format(i, curr_cost))
 
     print('TIMETABLE AFTER HARDENING')
-    show_timetable(matrix)
+    show_timetable(file, matrix)
     print('STATISTICS AFTER HARDENING')
     show_statistics(matrix, data, subjects_order, groups_empty_space, teachers_empty_space)
     write_solution_to_file(matrix, data, filled, file, groups_empty_space, teachers_empty_space, subjects_order)
@@ -331,7 +335,7 @@ def main():
     total, _, _, _, _ = hard_constraints_cost(matrix, data)
     print('Initial cost of hard constraints: {}'.format(total))
 
-    evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order)
+    evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file)
     print('STATISTICS')
     show_statistics(matrix, data, subjects_order, groups_empty_space, teachers_empty_space)
     simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file)

@@ -104,35 +104,47 @@ def set_up(num_of_columns):
     return matrix, free
 
 
-def show_timetable(matrix):
+def show_timetable(file, matrix):
     """
     Prints timetable matrix.
     """
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-    hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    with open(f"scheduled_files/{file}", "w") as f:
+        days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+        hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
-    # print heading for classrooms
-    for i in range(len(matrix[0])):
-        if i == 0:
-            print('{:17s} C{:6s}'.format('', '0'), end='')
-        else:
-            print('C{:6s}'.format(str(i)), end='')
-    print()
-
-    d_cnt = 0
-    h_cnt = 0
-    for i in range(len(matrix)):
-        day = days[d_cnt]
-        hour = hours[h_cnt]
-        print('{:10s} {:2d} ->  '.format(day, hour), end='')
-        for j in range(len(matrix[i])):
-            print('{:6s} '.format(str(matrix[i][j])), end='')
+        # print heading for classrooms
+        for i in range(len(matrix[0])):
+            if i == 0:
+                string = '{:17s} C{:6s}'.format('', '0')
+                print(string, end='')
+                f.write(string)
+            else:
+                string = 'C{:6s}'.format(str(i))
+                print(string, end='')
+                f.write(string)
         print()
-        h_cnt += 1
-        if h_cnt == 12:
-            h_cnt = 0
-            d_cnt += 1
+        f.write("\n")
+
+        d_cnt = 0
+        h_cnt = 0
+        for i in range(len(matrix)):
+            day = days[d_cnt]
+            hour = hours[h_cnt]
+            string = '{:10s} {:2d} ->  '.format(day, hour)
+            print(string, end='')
+            f.write(string)
+            for j in range(len(matrix[i])):
+                string = '{:6s} '.format(str(matrix[i][j]))
+                print(string, end='')
+                f.write(string)
             print()
+            f.write("\n")
+            h_cnt += 1
+            if h_cnt == 12:
+                h_cnt = 0
+                d_cnt += 1
+                print()
+                f.write("\n")
 
 
 def write_solution_to_file(matrix, data, filled, filepath, groups_empty_space, teachers_empty_space, subjects_order):
