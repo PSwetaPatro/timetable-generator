@@ -1,8 +1,19 @@
 import random
 from operator import itemgetter
-from utils import load_data, show_timetable, set_up, show_statistics, write_solution_to_file
-from costs import check_hard_constraints, hard_constraints_cost, empty_space_groups_cost, empty_space_teachers_cost, \
-    free_hour
+from utils import (
+    load_data,
+    show_timetable,
+    set_up,
+    show_statistics,
+    write_solution_to_file,
+)
+from costs import (
+    check_hard_constraints,
+    hard_constraints_cost,
+    empty_space_groups_cost,
+    empty_space_teachers_cost,
+    free_hour,
+)
 import copy
 import math
 import os
@@ -11,7 +22,10 @@ for d in ["scheduled_files", "solution_files"]:
     if not os.path.exists(d):
         os.mkdir(d)
 
-def initial_population(data, matrix, free, filled, groups_empty_space, teachers_empty_space, subjects_order):
+
+def initial_population(
+    data, matrix, free, filled, groups_empty_space, teachers_empty_space, subjects_order
+):
     """
     Sets up initial timetable for given classes by inserting in free fields such that every class is in its fitting
     classroom.
@@ -48,14 +62,22 @@ def initial_population(data, matrix, free, filled, groups_empty_space, teachers_
             if found:
                 for group_index in classs.groups:
                     # add order of the subjects for group
-                    insert_order(subjects_order, classs.subject, group_index, classs.type, start_time)
+                    insert_order(
+                        subjects_order,
+                        classs.subject,
+                        group_index,
+                        classs.type,
+                        start_time,
+                    )
                     # add times of the class for group
                     for i in range(int(classs.duration)):
                         groups_empty_space[group_index].append(i + start_time)
 
                 for i in range(int(classs.duration)):
-                    filled.setdefault(index, []).append((i + start_time, start_field[1]))        # add to filled
-                    free.remove((i + start_time, start_field[1]))                                # remove from free
+                    filled.setdefault(index, []).append(
+                        (i + start_time, start_field[1])
+                    )  # add to filled
+                    free.remove((i + start_time, start_field[1]))  # remove from free
                     # add times of the class for teachers
                     teachers_empty_space[classs.teacher].append(i + start_time)
                 break
@@ -71,9 +93,9 @@ def insert_order(subjects_order, subject, group, type, start_time):
     Inserts start time of the class for given subject, group and type of class.
     """
     times = subjects_order[(subject, group)]
-    if type == 'P':
+    if type == "P":
         times[0] = start_time
-    elif type == 'V':
+    elif type == "V":
         times[1] = start_time
     else:
         times[2] = start_time
@@ -118,7 +140,16 @@ def valid_teacher_group_row(matrix, data, index_class, row):
     return True
 
 
-def mutate_ideal_spot(matrix, data, ind_class, free, filled, groups_empty_space, teachers_empty_space, subjects_order):
+def mutate_ideal_spot(
+    matrix,
+    data,
+    ind_class,
+    free,
+    filled,
+    groups_empty_space,
+    teachers_empty_space,
+    subjects_order,
+):
     """
     Function that tries to find new fields in matrix for class index where the cost of the class is 0 (taken into
     account only hard constraints). If optimal spot is found, the fields in matrix are replaced.
@@ -154,7 +185,9 @@ def mutate_ideal_spot(matrix, data, ind_class, free, filled, groups_empty_space,
         found = True
         for i in range(int(classs.duration)):
             field = (i + start_time, start_field[1])
-            if field not in free or not valid_teacher_group_row(matrix, data, ind_class, field[0]):
+            if field not in free or not valid_teacher_group_row(
+                matrix, data, ind_class, field[0]
+            ):
                 found = False
                 ind += 1
                 break
@@ -167,27 +200,46 @@ def mutate_ideal_spot(matrix, data, ind_class, free, filled, groups_empty_space,
                 matrix[f[0]][f[1]] = None
                 # remove empty space of the group from old place of the class
                 for group_index in classs.groups:
-                    groups_empty_space[group_index].remove(f[0])
+                    try:
+                        groups_empty_space[group_index].remove(f[0])
+                    except:
+                        pass
                 # remove teacher's empty space from old place of the class
-                teachers_empty_space[classs.teacher].remove(f[0])
+                try:
+                    teachers_empty_space[classs.teacher].remove(f[0])
+                except:
+                    pass
 
             # update order of the subjects and add empty space for each group
             for group_index in classs.groups:
-                insert_order(subjects_order, classs.subject, group_index, classs.type, start_time)
+                insert_order(
+                    subjects_order, classs.subject, group_index, classs.type, start_time
+                )
                 for i in range(int(classs.duration)):
                     groups_empty_space[group_index].append(i + start_time)
 
             # add new term of the class to filled, remove those fields from free dict and insert new block in matrix
             for i in range(int(classs.duration)):
-                filled.setdefault(ind_class, []).append((i + start_time, start_field[1]))
+                filled.setdefault(ind_class, []).append(
+                    (i + start_time, start_field[1])
+                )
                 free.remove((i + start_time, start_field[1]))
                 matrix[i + start_time][start_field[1]] = ind_class
                 # add new empty space for teacher
-                teachers_empty_space[classs.teacher].append(i+start_time)
+                teachers_empty_space[classs.teacher].append(i + start_time)
             break
 
 
-def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file):
+def evolutionary_algorithm(
+    matrix,
+    data,
+    free,
+    filled,
+    groups_empty_space,
+    teachers_empty_space,
+    subjects_order,
+    file,
+):
     """
     Evolutionary algorithm that tires to find schedule such that hard constraints are satisfied.
     It uses (1+1) evolutionary strategy with Stifel's notation.
@@ -198,7 +250,7 @@ def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teach
     max_stagnation = 200
 
     for run in range(run_times):
-        print('Run {} | sigma = {}'.format(run + 1, sigma))
+        print("Run {} | sigma = {}".format(run + 1, sigma))
 
         t = 0
         stagnation = 0
@@ -206,9 +258,15 @@ def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teach
         while stagnation < max_stagnation:
 
             # check if optimal solution is found
-            loss_before, cost_classes, cost_teachers, cost_classrooms, cost_groups = hard_constraints_cost(matrix, data)
+            (
+                loss_before,
+                cost_classes,
+                cost_teachers,
+                cost_classrooms,
+                cost_groups,
+            ) = hard_constraints_cost(matrix, data)
             if loss_before == 0 and check_hard_constraints(matrix, data) == 0:
-                print('Found optimal solution: \n')
+                print("Found optimal solution: \n")
                 show_timetable(file, matrix)
                 break
 
@@ -219,8 +277,16 @@ def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teach
             for i in range(len(costs_list) // 4):
                 # mutate one to its ideal spot
                 if random.uniform(0, 1) < sigma and costs_list[i][1] != 0:
-                    mutate_ideal_spot(matrix, data, costs_list[i][0], free, filled, groups_empty_space,
-                                      teachers_empty_space, subjects_order)
+                    mutate_ideal_spot(
+                        matrix,
+                        data,
+                        costs_list[i][0],
+                        free,
+                        filled,
+                        groups_empty_space,
+                        teachers_empty_space,
+                        subjects_order,
+                    )
                 # else:
                 #     # exchange two who have the same duration
                 #     r = random.randrange(len(costs_list))
@@ -238,19 +304,30 @@ def evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teach
 
             t += 1
             # Stifel for (1+1)-ES
-            if t >= 10*n and t % n == 0:
+            if t >= 10 * n and t % n == 0:
                 s = cost_stats
-                if s < 2*n:
+                if s < 2 * n:
                     sigma *= 0.85
                 else:
                     sigma /= 0.85
                 cost_stats = 0
 
-        print('Number of iterations: {} \nCost: {} \nTeachers cost: {} | Groups cost: {} | Classrooms cost:'
-              ' {}'.format(t, loss_after, cost_teachers, cost_groups, cost_classrooms))
+        print(
+            "Number of iterations: {} \nCost: {} \nTeachers cost: {} | Groups cost: {} | Classrooms cost:"
+            " {}".format(t, loss_after, cost_teachers, cost_groups, cost_classrooms)
+        )
 
 
-def simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file):
+def simulated_hardening(
+    matrix,
+    data,
+    free,
+    filled,
+    groups_empty_space,
+    teachers_empty_space,
+    subjects_order,
+    file,
+):
     """
     Algorithm that uses simulated hardening with geometric decrease of temperature to optimize timetable by satisfying
     soft constraints as much as possible (empty space for groups and existence of an hour in which there is no classes).
@@ -267,7 +344,7 @@ def simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers
 
     for i in range(iter_count):
         rt = random.uniform(0, 1)
-        t *= 0.99                   # geometric decrease of temperature
+        t *= 0.99  # geometric decrease of temperature
 
         # save current results
         old_matrix = copy.deepcopy(matrix)
@@ -280,8 +357,16 @@ def simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers
         # try to mutate 1/4 of all classes
         for j in range(len(data.classes) // 4):
             index_class = random.randrange(len(data.classes))
-            mutate_ideal_spot(matrix, data, index_class, free, filled, groups_empty_space, teachers_empty_space,
-                              subjects_order)
+            mutate_ideal_spot(
+                matrix,
+                data,
+                index_class,
+                free,
+                filled,
+                groups_empty_space,
+                teachers_empty_space,
+                subjects_order,
+            )
         _, _, new_cost_groups = empty_space_groups_cost(groups_empty_space)
         _, _, new_cost_teachers = empty_space_teachers_cost(teachers_empty_space)
         new_cost = new_cost_groups  # + new_cost_teachers
@@ -300,13 +385,23 @@ def simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers
             teachers_empty_space = copy.deepcopy(old_teachers_empty_space)
             subjects_order = copy.deepcopy(old_subjects_order)
         if i % 100 == 0:
-            print('Iteration: {:4d} | Average cost: {:0.8f}'.format(i, curr_cost))
+            print("Iteration: {:4d} | Average cost: {:0.8f}".format(i, curr_cost))
 
-    print('TIMETABLE AFTER HARDENING')
+    print("TIMETABLE AFTER HARDENING")
     show_timetable(file, matrix)
-    print('STATISTICS AFTER HARDENING')
-    show_statistics(matrix, data, subjects_order, groups_empty_space, teachers_empty_space)
-    write_solution_to_file(matrix, data, filled, file, groups_empty_space, teachers_empty_space, subjects_order)
+    print("STATISTICS AFTER HARDENING")
+    show_statistics(
+        matrix, data, subjects_order, groups_empty_space, teachers_empty_space
+    )
+    write_solution_to_file(
+        matrix,
+        data,
+        filled,
+        file,
+        groups_empty_space,
+        teachers_empty_space,
+        subjects_order,
+    )
 
 
 def main():
@@ -326,20 +421,55 @@ def main():
     subjects_order = {}
     groups_empty_space = {}
     teachers_empty_space = {}
-    file = 'ulaz1.txt'
+    files = tuple(os.walk("test_files/"))[-1][-1]
+    print(files)
+    for file in files:
+        target_file = file.replace("json", "txt")
+        data = load_data(
+            f"test_files/{file}",
+            teachers_empty_space,
+            groups_empty_space,
+            subjects_order,
+        )
+        matrix, free = set_up(len(data.classrooms))
+        initial_population(
+            data,
+            matrix,
+            free,
+            filled,
+            groups_empty_space,
+            teachers_empty_space,
+            subjects_order,
+        )
 
-    data = load_data('test_files/' + file, teachers_empty_space, groups_empty_space, subjects_order)
-    matrix, free = set_up(len(data.classrooms))
-    initial_population(data, matrix, free, filled, groups_empty_space, teachers_empty_space, subjects_order)
+        total, _, _, _, _ = hard_constraints_cost(matrix, data)
+        print("Initial cost of hard constraints: {}".format(total))
 
-    total, _, _, _, _ = hard_constraints_cost(matrix, data)
-    print('Initial cost of hard constraints: {}'.format(total))
+        evolutionary_algorithm(
+            matrix,
+            data,
+            free,
+            filled,
+            groups_empty_space,
+            teachers_empty_space,
+            subjects_order,
+            target_file,
+        )
+        print("STATISTICS")
+        show_statistics(
+            matrix, data, subjects_order, groups_empty_space, teachers_empty_space
+        )
+        simulated_hardening(
+            matrix,
+            data,
+            free,
+            filled,
+            groups_empty_space,
+            teachers_empty_space,
+            subjects_order,
+            target_file,
+        )
 
-    evolutionary_algorithm(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file)
-    print('STATISTICS')
-    show_statistics(matrix, data, subjects_order, groups_empty_space, teachers_empty_space)
-    simulated_hardening(matrix, data, free, filled, groups_empty_space, teachers_empty_space, subjects_order, file)
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

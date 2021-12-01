@@ -15,9 +15,9 @@
 			"U7"
 		]
 	},
-	"Casovi": [
+	"Classes": [
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -27,7 +27,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Burgic Stefan",
 			"Grupe": [
@@ -37,7 +37,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Matematicka analiza",
+			"Subject": "Matematicka analiza",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Irena",
 			"Grupe": [
@@ -48,7 +48,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Matematicka analiza",
+			"Subject": "Matematicka analiza",
 			"Tip": "V",
 			"Nastavnik": "Jerotijevic Marija",
 			"Grupe": [
@@ -59,7 +59,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "P",
 			"Nastavnik": "Dimic Surla Bojana",
 			"Grupe": [
@@ -70,7 +70,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Diskretne strukture",
+			"Subject": "Diskretne strukture",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Irena",
 			"Grupe": [
@@ -81,7 +81,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Diskretne strukture",
+			"Subject": "Diskretne strukture",
 			"Tip": "V",
 			"Nastavnik": "Jerotijevic Marija",
 			"Grupe": [
@@ -92,7 +92,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Engleski 2",
+			"Subject": "Engleski 2",
 			"Tip": "P",
 			"Nastavnik": "Cuk Bojana",
 			"Grupe": [
@@ -103,7 +103,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Pismeno i usmeno izrazavanje",
+			"Subject": "Pismeno i usmeno izrazavanje",
 			"Tip": "P",
 			"Nastavnik": "Markovic Mirjana",
 			"Grupe": [
@@ -114,7 +114,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -124,7 +124,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Burgic Stefan",
 			"Grupe": [
@@ -134,7 +134,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Tomic Milan",
 			"Grupe": [
@@ -144,7 +144,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Vignjevic Mihailo",
 			"Grupe": [
@@ -154,7 +154,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Matematicka analiza",
+			"Subject": "Matematicka analiza",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Irena",
 			"Grupe": [
@@ -165,7 +165,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Matematicka analiza",
+			"Subject": "Matematicka analiza",
 			"Tip": "V",
 			"Nastavnik": "Jerotijevic Marija",
 			"Grupe": [
@@ -176,7 +176,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "P",
 			"Nastavnik": "Dimic Surla Bojana",
 			"Grupe": [
@@ -187,7 +187,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Diskretne strukture",
+			"Subject": "Diskretne strukture",
 			"Tip": "V",
 			"Nastavnik": "Jerotijevic Marija",
 			"Grupe": [
@@ -198,7 +198,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Diskretne strukture",
+			"Subject": "Diskretne strukture",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Irena",
 			"Grupe": [
@@ -209,7 +209,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Engleski 2",
+			"Subject": "Engleski 2",
 			"Tip": "P",
 			"Nastavnik": "Cuk Bojana",
 			"Grupe": [
@@ -220,7 +220,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Pismeno i usmeno izrazavanje",
+			"Subject": "Pismeno i usmeno izrazavanje",
 			"Tip": "P",
 			"Nastavnik": "Markovic Mirjana",
 			"Grupe": [
@@ -231,7 +231,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Dresevic Nevena",
 			"Grupe": [
@@ -241,7 +241,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Stancic Aleksandar",
 			"Grupe": [
@@ -251,7 +251,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Vignjevic Mihailo",
 			"Grupe": [
@@ -261,7 +261,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Stancic Aleksandar",
 			"Grupe": [
@@ -271,7 +271,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Matematicka analiza",
+			"Subject": "Matematicka analiza",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Irena",
 			"Grupe": [
@@ -283,7 +283,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Matematicka analiza",
+			"Subject": "Matematicka analiza",
 			"Tip": "V",
 			"Nastavnik": "Jerotijevic Marija",
 			"Grupe": [
@@ -295,7 +295,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "P",
 			"Nastavnik": "Dimic Surla Bojana",
 			"Grupe": [
@@ -307,7 +307,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Diskretne strukture",
+			"Subject": "Diskretne strukture",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Irena",
 			"Grupe": [
@@ -319,7 +319,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Diskretne strukture",
+			"Subject": "Diskretne strukture",
 			"Tip": "V",
 			"Nastavnik": "Jerotijevic Marija",
 			"Grupe": [
@@ -331,7 +331,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Pismeno i usmeno izrazavanje",
+			"Subject": "Pismeno i usmeno izrazavanje",
 			"Tip": "P",
 			"Nastavnik": "Markovic Mirjana",
 			"Grupe": [
@@ -343,7 +343,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Ciric Bogdan",
 			"Grupe": [
@@ -353,7 +353,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Zirojevic Nemanja",
 			"Grupe": [
@@ -363,7 +363,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Engleski 2",
+			"Subject": "Engleski 2",
 			"Tip": "P",
 			"Nastavnik": "Cuk Bojana",
 			"Grupe": [
@@ -373,7 +373,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "V",
 			"Nastavnik": "Stancic Aleksandar",
 			"Grupe": [
@@ -383,7 +383,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Objektno orijentisano programiranje",
+			"Subject": "Objektno orijentisano programiranje",
 			"Tip": "L",
 			"Nastavnik": "Dresevic Nevena",
 			"Grupe": [
@@ -393,7 +393,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Engleski 2",
+			"Subject": "Engleski 2",
 			"Tip": "P",
 			"Nastavnik": "Cuk Bojana",
 			"Grupe": [
@@ -404,7 +404,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Ilustracija",
+			"Subject": "Ilustracija",
 			"Tip": "P",
 			"Nastavnik": "Djuric Milan",
 			"Grupe": [
@@ -416,7 +416,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Ilustracija",
+			"Subject": "Ilustracija",
 			"Tip": "V",
 			"Nastavnik": "Djuric Milan",
 			"Grupe": [
@@ -428,7 +428,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Dizajn i informacione tehnologije",
+			"Subject": "Dizajn i informacione tehnologije",
 			"Tip": "P",
 			"Nastavnik": "Telarovic Rosana",
 			"Grupe": [
@@ -440,7 +440,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Dizajn i informacione tehnologije",
+			"Subject": "Dizajn i informacione tehnologije",
 			"Tip": "V",
 			"Nastavnik": "Bujic Predrag",
 			"Grupe": [
@@ -452,7 +452,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Administracija i odrzavanje sistema 2",
+			"Subject": "Administracija i odrzavanje sistema 2",
 			"Tip": "P",
 			"Nastavnik": "Lale Sinisa",
 			"Grupe": [
@@ -462,7 +462,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Administracija i odrzavanje sistema 2",
+			"Subject": "Administracija i odrzavanje sistema 2",
 			"Tip": "P",
 			"Nastavnik": "Lale Sinisa",
 			"Grupe": [
@@ -472,7 +472,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Osnovi informacionih tehnologija",
+			"Subject": "Osnovi informacionih tehnologija",
 			"Tip": "V",
 			"Nastavnik": "Zahorjanski Miroljub",
 			"Grupe": [
@@ -482,7 +482,7 @@
 			"Trajanje": "1"
 		},
 		{
-			"Predmet": "Poslovni softver",
+			"Subject": "Poslovni softver",
 			"Tip": "P",
 			"Nastavnik": "Mijatovic Igor",
 			"Grupe": [
@@ -492,7 +492,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Poslovni softver",
+			"Subject": "Poslovni softver",
 			"Tip": "P",
 			"Nastavnik": "Mijatovic Igor",
 			"Grupe": [
@@ -502,7 +502,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Engleski 2",
+			"Subject": "Engleski 2",
 			"Tip": "P",
 			"Nastavnik": "Vrbica-Matejic Vera",
 			"Grupe": [
@@ -513,7 +513,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Pismeno i usmeno izrazavanje",
+			"Subject": "Pismeno i usmeno izrazavanje",
 			"Tip": "P",
 			"Nastavnik": "Markovic Mirjana",
 			"Grupe": [
@@ -524,7 +524,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Osnovi informacionih tehnologija",
+			"Subject": "Osnovi informacionih tehnologija",
 			"Tip": "P",
 			"Nastavnik": "Zahorjanski Miroljub",
 			"Grupe": [
@@ -535,7 +535,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Administracija i odrzavanje sistema 2",
+			"Subject": "Administracija i odrzavanje sistema 2",
 			"Tip": "P",
 			"Nastavnik": "Seslija Ognjen",
 			"Grupe": [
@@ -545,7 +545,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Administracija i odrzavanje sistema 2",
+			"Subject": "Administracija i odrzavanje sistema 2",
 			"Tip": "P",
 			"Nastavnik": "Seslija Ognjen",
 			"Grupe": [
@@ -555,7 +555,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Osnovi informacionih tehnologija",
+			"Subject": "Osnovi informacionih tehnologija",
 			"Tip": "V",
 			"Nastavnik": "Zahorjanski Miroljub",
 			"Grupe": [
@@ -565,7 +565,7 @@
 			"Trajanje": "1"
 		},
 		{
-			"Predmet": "Poslovni softver",
+			"Subject": "Poslovni softver",
 			"Tip": "P",
 			"Nastavnik": "Mijatovic Igor",
 			"Grupe": [
@@ -575,7 +575,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Poslovni softver",
+			"Subject": "Poslovni softver",
 			"Tip": "P",
 			"Nastavnik": "Mijatovic Igor",
 			"Grupe": [
@@ -585,7 +585,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Veniger Marko",
 			"Grupe": [
@@ -595,7 +595,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Galic Luka",
 			"Grupe": [
@@ -605,7 +605,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -615,7 +615,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "V",
 			"Nastavnik": "Bakarec Bogdan",
 			"Grupe": [
@@ -625,7 +625,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "P",
 			"Nastavnik": "Perisic Branko",
 			"Grupe": [
@@ -636,7 +636,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "P",
 			"Nastavnik": "Urosevic Dragan",
 			"Grupe": [
@@ -647,7 +647,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Veniger Marko",
 			"Grupe": [
@@ -657,7 +657,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Galic Luka",
 			"Grupe": [
@@ -667,7 +667,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -677,7 +677,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "V",
 			"Nastavnik": "Bakarec Bogdan",
 			"Grupe": [
@@ -687,7 +687,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Veniger Marko",
 			"Grupe": [
@@ -697,7 +697,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Vucicevic Nemanja",
 			"Grupe": [
@@ -707,7 +707,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -717,7 +717,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "V",
 			"Nastavnik": "Draskic Radojica",
 			"Grupe": [
@@ -727,7 +727,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "P",
 			"Nastavnik": "Perisic Branko",
 			"Grupe": [
@@ -739,7 +739,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "P",
 			"Nastavnik": "Urosevic Dragan",
 			"Grupe": [
@@ -751,7 +751,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Veniger Marko",
 			"Grupe": [
@@ -761,7 +761,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Vucicevic Nemanja",
 			"Grupe": [
@@ -771,7 +771,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -781,7 +781,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "V",
 			"Nastavnik": "Draskic Radojica",
 			"Grupe": [
@@ -791,7 +791,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -801,7 +801,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Mitrovic Marko",
 			"Grupe": [
@@ -811,7 +811,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Upravljanje informacijama",
+			"Subject": "Upravljanje informacijama",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -821,7 +821,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Dizajn i analiza algoritama",
+			"Subject": "Dizajn i analiza algoritama",
 			"Tip": "V",
 			"Nastavnik": "Draskic Radojica",
 			"Grupe": [
@@ -831,7 +831,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -841,7 +841,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Mitrovic Marko",
 			"Grupe": [
@@ -851,7 +851,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Digitalne komunikacije",
+			"Subject": "Digitalne komunikacije",
 			"Tip": "V",
 			"Nastavnik": "Jovanovic Miljana",
 			"Grupe": [
@@ -861,7 +861,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "P",
 			"Nastavnik": "Bojovic Petar",
 			"Grupe": [
@@ -872,7 +872,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Napredna matematicka analiza",
+			"Subject": "Napredna matematicka analiza",
 			"Tip": "P",
 			"Nastavnik": "Filipovic Milanka",
 			"Grupe": [
@@ -883,7 +883,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Napredna matematicka analiza",
+			"Subject": "Napredna matematicka analiza",
 			"Tip": "V",
 			"Nastavnik": "Filipovic Milanka",
 			"Grupe": [
@@ -894,7 +894,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Digitalne komunikacije",
+			"Subject": "Digitalne komunikacije",
 			"Tip": "P",
 			"Nastavnik": "Vucic Desimir",
 			"Grupe": [
@@ -905,7 +905,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Operativni sistemi",
+			"Subject": "Operativni sistemi",
 			"Tip": "V",
 			"Nastavnik": "Veniger Marko",
 			"Grupe": [
@@ -915,7 +915,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske mreze",
+			"Subject": "Racunarske mreze",
 			"Tip": "V",
 			"Nastavnik": "Mitrovic Marko",
 			"Grupe": [
@@ -925,7 +925,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Digitalne komunikacije",
+			"Subject": "Digitalne komunikacije",
 			"Tip": "V",
 			"Nastavnik": "Jovanovic Miljana",
 			"Grupe": [
@@ -935,7 +935,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Grafiicki dizajn 1",
+			"Subject": "Grafiicki dizajn 1",
 			"Tip": "P",
 			"Nastavnik": "Malesevic Nenad",
 			"Grupe": [
@@ -945,7 +945,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Prostor i oblik",
+			"Subject": "Prostor i oblik",
 			"Tip": "P",
 			"Nastavnik": "Telarovic Rosana",
 			"Grupe": [
@@ -955,7 +955,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske komunikacije",
+			"Subject": "Racunarske komunikacije",
 			"Tip": "V",
 			"Nastavnik": "Babovic Ivan",
 			"Grupe": [
@@ -965,7 +965,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Programiranje WEB aplikacija",
+			"Subject": "Programiranje WEB aplikacija",
 			"Tip": "P",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -975,7 +975,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Programiranje WEB aplikacija",
+			"Subject": "Programiranje WEB aplikacija",
 			"Tip": "V",
 			"Nastavnik": "Mihajlovic Todor",
 			"Grupe": [
@@ -985,7 +985,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Interakcija covek racunar",
+			"Subject": "Interakcija covek racunar",
 			"Tip": "V",
 			"Nastavnik": "Mijatovic Igor",
 			"Grupe": [
@@ -995,7 +995,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Elektronsko poslovanje",
+			"Subject": "Elektronsko poslovanje",
 			"Tip": "V",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -1005,7 +1005,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Racunarske komunikacije",
+			"Subject": "Racunarske komunikacije",
 			"Tip": "P",
 			"Nastavnik": "Babovic Ivan",
 			"Grupe": [
@@ -1016,7 +1016,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Elektronsko poslovanje",
+			"Subject": "Elektronsko poslovanje",
 			"Tip": "P",
 			"Nastavnik": "Popovic Snezana",
 			"Grupe": [
@@ -1027,7 +1027,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarske komunikacije",
+			"Subject": "Racunarske komunikacije",
 			"Tip": "V",
 			"Nastavnik": "Babovic Ivan",
 			"Grupe": [
@@ -1037,7 +1037,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Programiranje WEB aplikacija",
+			"Subject": "Programiranje WEB aplikacija",
 			"Tip": "V",
 			"Nastavnik": "Mihajlovic Todor",
 			"Grupe": [
@@ -1047,7 +1047,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Programiranje WEB aplikacija",
+			"Subject": "Programiranje WEB aplikacija",
 			"Tip": "P",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -1057,7 +1057,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Interakcija covek racunar",
+			"Subject": "Interakcija covek racunar",
 			"Tip": "V",
 			"Nastavnik": "Mijatovic Igor",
 			"Grupe": [
@@ -1067,7 +1067,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Elektronsko poslovanje",
+			"Subject": "Elektronsko poslovanje",
 			"Tip": "V",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -1077,7 +1077,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Programski prevodioci",
+			"Subject": "Programmatically prevodioci",
 			"Tip": "P",
 			"Nastavnik": "Vujosevic Dusan",
 			"Grupe": [
@@ -1096,7 +1096,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Masinsko ucenje",
+			"Subject": "Masinsko ucenje",
 			"Tip": "P",
 			"Nastavnik": "Ilic Nemanja",
 			"Grupe": [
@@ -1109,7 +1109,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Interakcija covek racunar",
+			"Subject": "Interakcija covek racunar",
 			"Tip": "V",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -1122,7 +1122,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "WEB programiranje",
+			"Subject": "WEB programiranje",
 			"Tip": "P",
 			"Nastavnik": "Vidakovic MIlan",
 			"Grupe": [
@@ -1140,7 +1140,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "WEB programiranje",
+			"Subject": "WEB programiranje",
 			"Tip": "V",
 			"Nastavnik": "Gavrilovic Vuk",
 			"Grupe": [
@@ -1154,7 +1154,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Programski prevodioci",
+			"Subject": "Programmatically prevodioci",
 			"Tip": "V",
 			"Nastavnik": "Stankovic Ivana",
 			"Grupe": [
@@ -1166,7 +1166,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Softverske komponente",
+			"Subject": "Softverske komponente",
 			"Tip": "P",
 			"Nastavnik": "Dimic Surla Bojana",
 			"Grupe": [
@@ -1178,7 +1178,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Softverske komponente",
+			"Subject": "Softverske komponente",
 			"Tip": "V",
 			"Nastavnik": "Radovic Mihailo",
 			"Grupe": [
@@ -1190,7 +1190,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Masinsko ucenje",
+			"Subject": "Masinsko ucenje",
 			"Tip": "V",
 			"Nastavnik": "Jovanovic Nikola",
 			"Grupe": [
@@ -1203,7 +1203,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Genetski algoritmi",
+			"Subject": "Genetski algoritmi",
 			"Tip": "V",
 			"Nastavnik": "Tomic Milan",
 			"Grupe": [
@@ -1214,7 +1214,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Programski prevodioci",
+			"Subject": "Programmatically prevodioci",
 			"Tip": "V",
 			"Nastavnik": "Stankovic Ivana",
 			"Grupe": [
@@ -1226,7 +1226,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Genetski algoritmi",
+			"Subject": "Genetski algoritmi",
 			"Tip": "P",
 			"Nastavnik": "Vasiljevic Jelena",
 			"Grupe": [
@@ -1241,7 +1241,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Funkcionalno programiranje",
+			"Subject": "Funkcionalno programiranje",
 			"Tip": "P",
 			"Nastavnik": "Dimic Surla Bojana",
 			"Grupe": [
@@ -1253,7 +1253,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Funkcionalno programiranje",
+			"Subject": "Funkcionalno programiranje",
 			"Tip": "V",
 			"Nastavnik": "Ciganovic Igor",
 			"Grupe": [
@@ -1265,7 +1265,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Interakcija covek racunar",
+			"Subject": "Interakcija covek racunar",
 			"Tip": "V",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -1277,7 +1277,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Razvoj mobilnih aplikacija",
+			"Subject": "Razvoj mobilnih aplikacija",
 			"Tip": "P",
 			"Nastavnik": "Zirojevic Nemanja",
 			"Grupe": [
@@ -1294,7 +1294,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Razvoj mobilnih aplikacija",
+			"Subject": "Razvoj mobilnih aplikacija",
 			"Tip": "V",
 			"Nastavnik": "Kojadinovic Dragoljub",
 			"Grupe": [
@@ -1311,7 +1311,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Modelovanje i simulacija",
+			"Subject": "Modelovanje i simulacija",
 			"Tip": "P",
 			"Nastavnik": "Jankovic Radomir",
 			"Grupe": [
@@ -1325,7 +1325,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Programski prevodioci",
+			"Subject": "Programmatically prevodioci",
 			"Tip": "V",
 			"Nastavnik": "Stankovic Ivana",
 			"Grupe": [
@@ -1338,7 +1338,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Interakcija covek racunar",
+			"Subject": "Interakcija covek racunar",
 			"Tip": "V",
 			"Nastavnik": "Radosavljevic Nemanja",
 			"Grupe": [
@@ -1350,7 +1350,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "WEB programiranje",
+			"Subject": "WEB programiranje",
 			"Tip": "V",
 			"Nastavnik": "Gavrilovic Vuk",
 			"Grupe": [
@@ -1363,7 +1363,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Genetski algoritmi",
+			"Subject": "Genetski algoritmi",
 			"Tip": "V",
 			"Nastavnik": "Tomic Milan",
 			"Grupe": [
@@ -1376,7 +1376,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Modelovanje i simulacija",
+			"Subject": "Modelovanje i simulacija",
 			"Tip": "V",
 			"Nastavnik": "Jankovic Radomir",
 			"Grupe": [
@@ -1388,7 +1388,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Bezbednost mreza",
+			"Subject": "Bezbednost mreza",
 			"Tip": "P",
 			"Nastavnik": "Babic Djorde",
 			"Grupe": [
@@ -1403,7 +1403,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Bezbednost mreza",
+			"Subject": "Bezbednost mreza",
 			"Tip": "V",
 			"Nastavnik": "Bojovic Petar",
 			"Grupe": [
@@ -1418,7 +1418,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Kompresija podataka",
+			"Subject": "Kompresija podataka",
 			"Tip": "P",
 			"Nastavnik": "Vukotic Selena",
 			"Grupe": [
@@ -1433,7 +1433,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Kompresija podataka",
+			"Subject": "Kompresija podataka",
 			"Tip": "V",
 			"Nastavnik": "Vukotic Selena",
 			"Grupe": [
@@ -1448,7 +1448,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Kodovanje i teorija informacija",
+			"Subject": "Kodovanje i teorija informacija",
 			"Tip": "P",
 			"Nastavnik": "Vucic Desimir",
 			"Grupe": [
@@ -1463,7 +1463,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Kodovanje i teorija informacija",
+			"Subject": "Kodovanje i teorija informacija",
 			"Tip": "V",
 			"Nastavnik": "Jovanovic Miljana",
 			"Grupe": [
@@ -1478,7 +1478,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Uvod u robotiku",
+			"Subject": "Uvod u robotiku",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Milos",
 			"Grupe": [
@@ -1489,7 +1489,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Uvod u robotiku",
+			"Subject": "Uvod u robotiku",
 			"Tip": "V",
 			"Nastavnik": "Jovanovic Miljana",
 			"Grupe": [
@@ -1500,7 +1500,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Modelovanje i simulacija",
+			"Subject": "Modelovanje i simulacija",
 			"Tip": "V",
 			"Nastavnik": "Jankovic Radomir",
 			"Grupe": [
@@ -1511,7 +1511,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Data centar infrastruktura",
+			"Subject": "Data centar infrastruktura",
 			"Tip": "P",
 			"Nastavnik": "Martic Goran",
 			"Grupe": [
@@ -1522,7 +1522,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Data centar infrastruktura",
+			"Subject": "Data centar infrastruktura",
 			"Tip": "V",
 			"Nastavnik": "Martic Goran",
 			"Grupe": [
@@ -1533,7 +1533,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Graficki dizajn 2",
+			"Subject": "Graficki dizajn 2",
 			"Tip": "P",
 			"Nastavnik": "Malesevic Nenad",
 			"Grupe": [
@@ -1543,7 +1543,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarska animacija",
+			"Subject": "Racunarska animacija",
 			"Tip": "P",
 			"Nastavnik": "Djuric Milan",
 			"Grupe": [
@@ -1553,7 +1553,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Racunarska animacija",
+			"Subject": "Racunarska animacija",
 			"Tip": "V",
 			"Nastavnik": "Djuric Milan",
 			"Grupe": [
@@ -1563,7 +1563,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Scenario i knjiga snimanja",
+			"Subject": "Scenario i knjiga snimanja",
 			"Tip": "V",
 			"Nastavnik": "Stetin Darko",
 			"Grupe": [
@@ -1573,7 +1573,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Upravljanje i odrzavanje Windows Server okruzenja",
+			"Subject": "Upravljanje i odrzavanje Windows Server okruzenja",
 			"Tip": "P",
 			"Nastavnik": "Lale Sinisa",
 			"Grupe": [
@@ -1583,7 +1583,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Upravljanje i odrzavanje Windows Server okruzenja",
+			"Subject": "Upravljanje i odrzavanje Windows Server okruzenja",
 			"Tip": "P",
 			"Nastavnik": "Lale Sinisa",
 			"Grupe": [
@@ -1593,7 +1593,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Implementiranje Microsoft ISA servera",
+			"Subject": "Implementiranje Microsoft ISA servera",
 			"Tip": "P",
 			"Nastavnik": "Lale Sinisa",
 			"Grupe": [
@@ -1603,7 +1603,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Implementiranje Microsoft ISA servera",
+			"Subject": "Implementiranje Microsoft ISA servera",
 			"Tip": "P",
 			"Nastavnik": "Lale Sinisa",
 			"Grupe": [
@@ -1613,7 +1613,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Prakticne tehnike zastite u IP mrezama",
+			"Subject": "Prakticne tehnike zastite u IP mrezama",
 			"Tip": "P",
 			"Nastavnik": "Bojovic Petar",
 			"Grupe": [
@@ -1623,7 +1623,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Prakticne tehnike zastite u IP mrezama",
+			"Subject": "Prakticne tehnike zastite u IP mrezama",
 			"Tip": "V",
 			"Nastavnik": "Jankovski Ivan",
 			"Grupe": [
@@ -1633,7 +1633,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Istorija racunarstva",
+			"Subject": "Istorija racunarstva",
 			"Tip": "P",
 			"Nastavnik": "Zahorjanski Miroljub",
 			"Grupe": [
@@ -1644,7 +1644,7 @@
 			"Trajanje": "2"
 		},
 		{
-			"Predmet": "Razvoj infrastrukture i servisa u oblaku",
+			"Subject": "Razvoj infrastrukture i servisa u oblaku",
 			"Tip": "P",
 			"Nastavnik": "Miletic Misa",
 			"Grupe": [
@@ -1654,7 +1654,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Razvoj infrastrukture i servisa u oblaku",
+			"Subject": "Razvoj infrastrukture i servisa u oblaku",
 			"Tip": "V",
 			"Nastavnik": "Miletic Misa",
 			"Grupe": [
@@ -1664,7 +1664,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Razvoj web aplikacija i servisa",
+			"Subject": "Razvoj web aplikacija i servisa",
 			"Tip": "P",
 			"Nastavnik": "Markovic Nemanja",
 			"Grupe": [
@@ -1674,7 +1674,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Razvoj web aplikacija i servisa",
+			"Subject": "Razvoj web aplikacija i servisa",
 			"Tip": "P",
 			"Nastavnik": "Markovic Nemanja",
 			"Grupe": [
@@ -1684,7 +1684,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Microsoft tehnologije za pristup podacima",
+			"Subject": "Microsoft tehnologije za pristup podacima",
 			"Tip": "P",
 			"Nastavnik": "Milosavljevic Milos",
 			"Grupe": [
@@ -1694,7 +1694,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Microsoft tehnologije za pristup podacima",
+			"Subject": "Microsoft tehnologije za pristup podacima",
 			"Tip": "P",
 			"Nastavnik": "Milosavljevic Milos",
 			"Grupe": [
@@ -1704,7 +1704,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Konkurentni i distribuirani sistemi",
+			"Subject": "Konkurentni i distribuirani sistemi",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -1714,7 +1714,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Softversko inzenjerstvo",
+			"Subject": "Softversko inzenjerstvo",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -1724,7 +1724,7 @@
 			"Trajanje": "4"
 		},
 		{
-			"Predmet": "Softversko inzenjerstvo",
+			"Subject": "Softversko inzenjerstvo",
 			"Tip": "P",
 			"Nastavnik": "Perisic Branko",
 			"Grupe": [
@@ -1735,7 +1735,7 @@
 			"Trajanje": "4"
 		},
 		{
-			"Predmet": "Teorija algoritama, automata i jezika",
+			"Subject": "Teorija algoritama, automata i jezika",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Jelena",
 			"Grupe": [
@@ -1746,7 +1746,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Teorija algoritama, automata i jezika",
+			"Subject": "Teorija algoritama, automata i jezika",
 			"Tip": "V",
 			"Nastavnik": "Tomic Milan",
 			"Grupe": [
@@ -1757,7 +1757,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Konkurentni i distribuirani sistemi",
+			"Subject": "Konkurentni i distribuirani sistemi",
 			"Tip": "P",
 			"Nastavnik": "Milinkovic Stevan",
 			"Grupe": [
@@ -1769,7 +1769,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Konkurentni i distribuirani sistemi",
+			"Subject": "Konkurentni i distribuirani sistemi",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -1779,7 +1779,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Softversko inzenjerstvo",
+			"Subject": "Softversko inzenjerstvo",
 			"Tip": "V",
 			"Nastavnik": "Markovic Ana",
 			"Grupe": [
@@ -1789,7 +1789,7 @@
 			"Trajanje": "4"
 		},
 		{
-			"Predmet": "Konkurentni i distribuirani sistemi",
+			"Subject": "Konkurentni i distribuirani sistemi",
 			"Tip": "V",
 			"Nastavnik": "Milojkovic Branislav",
 			"Grupe": [
@@ -1799,7 +1799,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Digitalna obrada signala",
+			"Subject": "Digitalna obrada signala",
 			"Tip": "P",
 			"Nastavnik": "Babic Djorde",
 			"Grupe": [
@@ -1809,7 +1809,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Digitalna obrada signala",
+			"Subject": "Digitalna obrada signala",
 			"Tip": "V",
 			"Nastavnik": "Jovanovic Miljana",
 			"Grupe": [
@@ -1819,7 +1819,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Namenski racunarski sistemi",
+			"Subject": "Namenski racunarski sistemi",
 			"Tip": "P",
 			"Nastavnik": "Jovanovic Milos",
 			"Grupe": [
@@ -1829,7 +1829,7 @@
 			"Trajanje": "3"
 		},
 		{
-			"Predmet": "Namenski racunarski sistemi",
+			"Subject": "Namenski racunarski sistemi",
 			"Tip": "V",
 			"Nastavnik": "Stambolovic Bogdana",
 			"Grupe": [

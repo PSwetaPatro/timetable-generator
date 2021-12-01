@@ -53,7 +53,7 @@ def empty_space_groups_cost(groups_empty_space):
         empty_per_day = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0}
 
         for i in range(1, len(times) - 1):
-            a = times[i-1]
+            a = times[i - 1]
             b = times[i]
             diff = b - a
             # classes are in the same day if their time div 12 is the same
@@ -107,7 +107,7 @@ def free_hour(matrix):
     """
     Checks if there is an hour without classes. If so, returns it in format 'day: hour', otherwise -1.
     """
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
     hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
     for i in range(len(matrix)):
@@ -118,7 +118,7 @@ def free_hour(matrix):
                 exists = False
 
         if exists:
-            return '{}: {}'.format(days[i // 12], hours[i % 12])
+            return "{}: {}".format(days[i // 12], hours[i % 12])
 
     return -1
 
@@ -141,19 +141,19 @@ def hard_constraints_cost(matrix, data):
     cost_group = 0
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
-            field = matrix[i][j]                                        # for every field in matrix
+            field = matrix[i][j]  # for every field in matrix
             if field is not None:
-                c1 = data.classes[field]                                # take class from that field
+                c1 = data.classes[field]  # take class from that field
 
                 # calculate loss for classroom
                 if j not in c1.classrooms:
                     cost_classrooms += 1
                     cost_class[field] += 1
 
-                for k in range(j + 1, len(matrix[i])):                  # go through the end of row
+                for k in range(j + 1, len(matrix[i])):  # go through the end of row
                     next_field = matrix[i][k]
                     if next_field is not None:
-                        c2 = data.classes[next_field]                   # take class of that field
+                        c2 = data.classes[next_field]  # take class of that field
 
                         # calculate loss for teachers
                         if c1.teacher == c2.teacher:
@@ -180,19 +180,19 @@ def check_hard_constraints(matrix, data):
     overlaps = 0
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
-            field = matrix[i][j]                                    # for every field in matrix
+            field = matrix[i][j]  # for every field in matrix
             if field is not None:
-                c1 = data.classes[field]                            # take class from that field
+                c1 = data.classes[field]  # take class from that field
 
                 # calculate loss for classroom
                 if j not in c1.classrooms:
                     overlaps += 1
 
-                for k in range(len(matrix[i])):                     # go through the end of row
+                for k in range(len(matrix[i])):  # go through the end of row
                     if k != j:
                         next_field = matrix[i][k]
                         if next_field is not None:
-                            c2 = data.classes[next_field]           # take class of that field
+                            c2 = data.classes[next_field]  # take class of that field
 
                             # calculate loss for teachers
                             if c1.teacher == c2.teacher:
