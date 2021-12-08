@@ -404,7 +404,7 @@ def simulated_hardening(
     )
 
 
-def main():
+def main(file):
     """
     free = [(row, column)...] - list of free fields (row, column) in matrix
     filled: dictionary where key = index of the class, value = list of fields in matrix
@@ -421,55 +421,52 @@ def main():
     subjects_order = {}
     groups_empty_space = {}
     teachers_empty_space = {}
-    files = tuple(os.walk("test_files/"))[-1][-1]
-    print(files)
-    for file in files:
-        target_file = file.replace("json", "txt")
-        data = load_data(
-            f"test_files/{file}",
-            teachers_empty_space,
-            groups_empty_space,
-            subjects_order,
-        )
-        matrix, free = set_up(len(data.classrooms))
-        initial_population(
-            data,
-            matrix,
-            free,
-            filled,
-            groups_empty_space,
-            teachers_empty_space,
-            subjects_order,
-        )
+    target_file = file.replace("json", "txt")
+    data = load_data(
+        f"test_files/{file}",
+        teachers_empty_space,
+        groups_empty_space,
+        subjects_order,
+    )
+    matrix, free = set_up(len(data.classrooms))
+    initial_population(
+        data,
+        matrix,
+        free,
+        filled,
+        groups_empty_space,
+        teachers_empty_space,
+        subjects_order,
+    )
 
-        total, _, _, _, _ = hard_constraints_cost(matrix, data)
-        print("Initial cost of hard constraints: {}".format(total))
+    total, _, _, _, _ = hard_constraints_cost(matrix, data)
+    print("Initial cost of hard constraints: {}".format(total))
 
-        evolutionary_algorithm(
-            matrix,
-            data,
-            free,
-            filled,
-            groups_empty_space,
-            teachers_empty_space,
-            subjects_order,
-            target_file,
-        )
-        print("STATISTICS")
-        show_statistics(
-            matrix, data, subjects_order, groups_empty_space, teachers_empty_space
-        )
-        simulated_hardening(
-            matrix,
-            data,
-            free,
-            filled,
-            groups_empty_space,
-            teachers_empty_space,
-            subjects_order,
-            target_file,
-        )
+    evolutionary_algorithm(
+        matrix,
+        data,
+        free,
+        filled,
+        groups_empty_space,
+        teachers_empty_space,
+        subjects_order,
+        target_file,
+    )
+    print("STATISTICS")
+    show_statistics(
+        matrix, data, subjects_order, groups_empty_space, teachers_empty_space
+    )
+    simulated_hardening(
+        matrix,
+        data,
+        free,
+        filled,
+        groups_empty_space,
+        teachers_empty_space,
+        subjects_order,
+        target_file,
+    )
 
 
 if __name__ == "__main__":
-    main()
+    main(None)

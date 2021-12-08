@@ -1,7 +1,49 @@
 {% extends 'index.html' %}
 {% block content %}
 
-<h1 style="width: 100%;text-align: center;color: indigo;"><u>Timetable Generator</u></h1>
-
+<div>
+    <div>
+        <ul class="nav nav-tabs">
+            {% for file,content in file_contents.items() %}
+            {% if loop.index == 1 %}
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#file-{{ loop.index }}">
+                    <b>{{ file }}</b>
+                </a>
+            </li>
+            {% else %}
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#file-{{ loop.index }}">
+                    <b>{{ file }}</b>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="tab-content tab-box">
+        {% for file,content in file_contents.items() %}
+        {% if loop.index == 1 %}
+        <div id="file-{{ loop.index }}" class="row tab-pane active">
+            <div class="col-6 mycontent-left">
+                <pre>{{ content }}</pre>
+            </div>
+            <div class="col-6">
+                result
+            </div>
+        </div>
+        {% else %}
+        <div id="file-{{ loop.index }}" class="row tab-pane fade">
+            <div class="col-6 mycontent-left">
+                <pre>{{ content }}</pre>
+            </div>
+            <div class="col-6">
+                result
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
 
 {% endblock content %}

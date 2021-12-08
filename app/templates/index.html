@@ -11,6 +11,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
 
     <title>Timetable Generator</title>
 </head>
@@ -18,7 +19,37 @@
 </html>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- brand -->
+        <a class="navbar-brand" href="/" style="color: indigo;"><b>Timetable Generator</b></a>
+    
+        <!-- hamburger icon on collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- menus -->
+        <div class="collapse navbar-collapse" id="navbarToggle">
+    
+            <!-- left menus -->
+            <div class="navbar-nav mr-auto ml-5">
+                <!-- <a class="nav-item nav-link" href="#btn-index">Index</a>
+                <a class="nav-item nav-link" href="javascript:void(0)" onclick="toggleAbout()">About</a> -->
+                <a class="nav-item nav-link" href="https://github.com/PSwetaPatro/timetable-generator" target="_blank">Github</a>
+            </div>
+    
+            <!-- right menus -->
+            <div class="navbar-nav mr-5">
+                <!-- <a class="nav-item nav-link" href="https://rrka79wal.herokuapp.com/" target="_blank">
+                    <b style="font-size: 18px; font-weight: bold;">Rohnak Agarwal</b>
+                </a> -->
+            </div>
+        </div>
+    </nav>
+
     <div class="container">{% block content %}{% endblock content %}</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
