@@ -35,8 +35,8 @@ def load_data(file_path, teachers_empty_space, groups_empty_space, subjects_orde
     class_list = []
 
     for cl in data["Classes"]:
-        new_group = cl["Grupe"]
-        new_teacher = cl["Nastavnik"]
+        new_group = cl["Groups"]
+        new_teacher = cl["Mentor"]
 
         # initialise for empty space of teachers
         if new_teacher not in teachers_empty_space:
@@ -47,8 +47,8 @@ def load_data(file_path, teachers_empty_space, groups_empty_space, subjects_orde
             new_teacher,
             cl["Subject"],
             cl["Tip"],
-            cl["Trajanje"],
-            cl["Ucionica"],
+            cl["Duration"],
+            cl["Classroom"],
         )
         # add groups
         for group in new_group:
@@ -69,8 +69,8 @@ def load_data(file_path, teachers_empty_space, groups_empty_space, subjects_orde
         classes[len(classes)] = cl
 
     # every class is assigned a list of classrooms he can be in as indexes (later columns of matrix)
-    for type in data["Ucionice"]:
-        for name in data["Ucionice"][type]:
+    for type in data["Classrooms"]:
+        for name in data["Classrooms"][type]:
             new = Classroom(name, type)
             classrooms[len(classrooms)] = new
 

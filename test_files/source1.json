@@ -1,0 +1,848 @@
+{
+	"Classrooms": {
+		"a": [
+			"Atelier"
+		],
+		"k": [
+			"Kolarac"
+		],
+		"n": [
+			"U1",
+			"U8"
+		],
+		"r": [
+			"U3",
+			"U4",
+			"U5",
+			"U7"
+		],
+		"s": [
+			"Studio"
+		]
+	},
+	"Classes": [
+		{
+			"Subject": "Programmatically translators",
+			"Tip": "P",
+			"Mentor": "Vujosevic Dusan",
+			"Groups": [
+				"301",
+				"302",
+				"303",
+				"304",
+				"305",
+				"306",
+				"307",
+				"308",
+				"309",
+				"309a"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Man computer interaction",
+			"Tip": "P",
+			"Mentor": "Vujosevic Dusan",
+			"Groups": [
+				"301",
+				"302",
+				"303",
+				"304",
+				"305",
+				"306",
+				"307",
+				"308",
+				"309",
+				"309a",
+				"2s1",
+				"2s2"
+			],
+			"Classroom": "k",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Machine learning",
+			"Tip": "P",
+			"Mentor": "Ilic Nemanja",
+			"Groups": [
+				"301",
+				"302",
+				"306",
+				"308"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Man computer interaction",
+			"Tip": "V",
+			"Mentor": "Radosavljevic Nemanja",
+			"Groups": [
+				"301",
+				"303",
+				"304",
+				"305"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Web Programming",
+			"Tip": "P",
+			"Mentor": "Vidakovic MIlan",
+			"Groups": [
+				"301",
+				"303",
+				"304",
+				"307",
+				"308",
+				"309",
+				"314",
+				"319",
+				"322"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Web Programming",
+			"Tip": "V",
+			"Mentor": "Gavrilovic Vuk",
+			"Groups": [
+				"301",
+				"303",
+				"304",
+				"307",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Programmatically translators",
+			"Tip": "V",
+			"Mentor": "Stankovic Ivana",
+			"Groups": [
+				"301",
+				"305",
+				"308"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Software components",
+			"Tip": "P",
+			"Mentor": "Dimic Surla Bojana",
+			"Groups": [
+				"301",
+				"307",
+				"309a"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Software components",
+			"Tip": "V",
+			"Mentor": "Radovic Mihailo",
+			"Groups": [
+				"301",
+				"307",
+				"309a"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Machine learning",
+			"Tip": "V",
+			"Mentor": "Jovanovic Nikola",
+			"Groups": [
+				"301",
+				"308",
+				"302",
+				"306"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Genetic algorithms",
+			"Tip": "V",
+			"Mentor": "Tomic Milan",
+			"Groups": [
+				"302",
+				"303"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Programmatically translators",
+			"Tip": "V",
+			"Mentor": "Stankovic Ivana",
+			"Groups": [
+				"302",
+				"303",
+				"304"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Genetic algorithms",
+			"Tip": "P",
+			"Mentor": "Vasiljevic Jelena",
+			"Groups": [
+				"302",
+				"303",
+				"305",
+				"306",
+				"309",
+				"309a"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Functional Programming",
+			"Tip": "P",
+			"Mentor": "Dimic Surla Bojana",
+			"Groups": [
+				"302",
+				"304",
+				"309"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Functional Programming",
+			"Tip": "V",
+			"Mentor": "Ciganovic Igor",
+			"Groups": [
+				"302",
+				"304",
+				"309"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Man computer interaction",
+			"Tip": "V",
+			"Mentor": "Radosavljevic Nemanja",
+			"Groups": [
+				"302",
+				"307",
+				"306"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Mobile application development",
+			"Tip": "P",
+			"Mentor": "Zirojevic Nemanja",
+			"Groups": [
+				"303",
+				"304",
+				"305",
+				"306",
+				"307",
+				"308",
+				"313",
+				"314"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Mobile application development",
+			"Tip": "V",
+			"Mentor": "Kojadinovic Dragoljub",
+			"Groups": [
+				"303",
+				"304",
+				"305",
+				"306",
+				"307",
+				"308",
+				"313",
+				"314"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Modeling and simulation",
+			"Tip": "P",
+			"Mentor": "Jankovic Radomir",
+			"Groups": [
+				"305",
+				"319",
+				"323",
+				"309a",
+				"324"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Programmatically translators",
+			"Tip": "V",
+			"Mentor": "Stankovic Ivana",
+			"Groups": [
+				"306",
+				"307",
+				"309",
+				"309a"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Man computer interaction",
+			"Tip": "V",
+			"Mentor": "Radosavljevic Nemanja",
+			"Groups": [
+				"308",
+				"309",
+				"309a"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Web Programming",
+			"Tip": "V",
+			"Mentor": "Gavrilovic Vuk",
+			"Groups": [
+				"308",
+				"309",
+				"314",
+				"319"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Genetic algorithms",
+			"Tip": "V",
+			"Mentor": "Tomic Milan",
+			"Groups": [
+				"309",
+				"309a",
+				"305",
+				"306"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Modeling and simulation",
+			"Tip": "V",
+			"Mentor": "Jankovic Radomir",
+			"Groups": [
+				"309a",
+				"324",
+				"305"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Network security",
+			"Tip": "P",
+			"Mentor": "Babic Djorde",
+			"Groups": [
+				"313",
+				"314",
+				"319",
+				"323",
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Network security",
+			"Tip": "V",
+			"Mentor": "Bojovic Petar",
+			"Groups": [
+				"313",
+				"314",
+				"319",
+				"323",
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Data compression",
+			"Tip": "P",
+			"Mentor": "Vukotic Selena",
+			"Groups": [
+				"313",
+				"314",
+				"319",
+				"323",
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Data compression",
+			"Tip": "V",
+			"Mentor": "Vukotic Selena",
+			"Groups": [
+				"313",
+				"314",
+				"319",
+				"323",
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Coding and information theory",
+			"Tip": "P",
+			"Mentor": "Vucic Desimir",
+			"Groups": [
+				"313",
+				"314",
+				"319",
+				"323",
+				"324",
+				"322"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Coding and information theory",
+			"Tip": "V",
+			"Mentor": "Jovanovic Miljana",
+			"Groups": [
+				"313",
+				"314",
+				"319",
+				"323",
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Robotics",
+			"Tip": "P",
+			"Mentor": "Jovanovic Milos",
+			"Groups": [
+				"313",
+				"323"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Robotics",
+			"Tip": "V",
+			"Mentor": "Jovanovic Miljana",
+			"Groups": [
+				"313",
+				"323"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Modeling and simulation",
+			"Tip": "V",
+			"Mentor": "Jankovic Radomir",
+			"Groups": [
+				"319",
+				"323"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Data center infrastructure",
+			"Tip": "P",
+			"Mentor": "Martic Goran",
+			"Groups": [
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Data center infrastructure",
+			"Tip": "V",
+			"Mentor": "Martic Goran",
+			"Groups": [
+				"324",
+				"322"
+			],
+			"Classroom": "r",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Graphics Design 2",
+			"Tip": "P",
+			"Mentor": "Malesevic Nenad",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Graphics Design 2",
+			"Tip": "V",
+			"Mentor": "Malesevic Nenad",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "a",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Music production 3",
+			"Tip": "P",
+			"Mentor": "Ognjanovic Ivana",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "s",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Music production 3",
+			"Tip": "V",
+			"Mentor": "Ognjanovic Ivana",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "s",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Computer animation",
+			"Tip": "P",
+			"Mentor": "Djuric Milan",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Computer animation",
+			"Tip": "V",
+			"Mentor": "Djuric Milan",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Screenplay and recording book",
+			"Tip": "P",
+			"Mentor": "Stetin Darko",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "a",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Screenplay and recording book",
+			"Tip": "V",
+			"Mentor": "Stetin Darko",
+			"Groups": [
+				"3d1"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Manage and maintain the Windows Server environment",
+			"Tip": "P",
+			"Mentor": "Lale Sinisa",
+			"Groups": [
+				"3s1"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Manage and maintain the Windows Server environment",
+			"Tip": "P",
+			"Mentor": "Lale Sinisa",
+			"Groups": [
+				"3s1"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Implementing a Microsoft ISA server",
+			"Tip": "P",
+			"Mentor": "Lale Sinisa",
+			"Groups": [
+				"3s1"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Implementing a Microsoft ISA server",
+			"Tip": "P",
+			"Mentor": "Lale Sinisa",
+			"Groups": [
+				"3s1"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Practical security techniques in IP networks",
+			"Tip": "P",
+			"Mentor": "Bojovic Petar",
+			"Groups": [
+				"3s1"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Practical security techniques in IP networks",
+			"Tip": "V",
+			"Mentor": "Jankovski Ivan",
+			"Groups": [
+				"3s1"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "History of computer science",
+			"Tip": "P",
+			"Mentor": "Zahorjanski Miroljub",
+			"Groups": [
+				"3s1",
+				"3s2"
+			],
+			"Classroom": "n",
+			"Duration": "2"
+		},
+		{
+			"Subject": "Cloud infrastructure and service development",
+			"Tip": "P",
+			"Mentor": "Miletic Misa",
+			"Groups": [
+				"3s2"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Cloud infrastructure and service development",
+			"Tip": "V",
+			"Mentor": "Miletic Misa",
+			"Groups": [
+				"3s2"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Web application and service development",
+			"Tip": "P",
+			"Mentor": "Markovic Nemanja",
+			"Groups": [
+				"3s2"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Web application and service development",
+			"Tip": "P",
+			"Mentor": "Markovic Nemanja",
+			"Groups": [
+				"3s2"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Microsoft data access technologies",
+			"Tip": "P",
+			"Mentor": "Milosavljevic Milos",
+			"Groups": [
+				"3s2"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Microsoft data access technologies",
+			"Tip": "P",
+			"Mentor": "Milosavljevic Milos",
+			"Groups": [
+				"3s2"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Competitive and distributed systems",
+			"Tip": "V",
+			"Mentor": "Milojkovic Branislav",
+			"Groups": [
+				"401"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Software engineering",
+			"Tip": "V",
+			"Mentor": "Markovic Ana",
+			"Groups": [
+				"401"
+			],
+			"Classroom": "r",
+			"Duration": "4"
+		},
+		{
+			"Subject": "Software engineering",
+			"Tip": "P",
+			"Mentor": "Perisic Branko",
+			"Groups": [
+				"401",
+				"402"
+			],
+			"Classroom": "n",
+			"Duration": "4"
+		},
+		{
+			"Subject": "Theory of algorithms, automata and languages",
+			"Tip": "P",
+			"Mentor": "Jovanovic Jelena",
+			"Groups": [
+				"401",
+				"402"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Theory of algorithms, automata and languages",
+			"Tip": "V",
+			"Mentor": "Tomic Milan",
+			"Groups": [
+				"401",
+				"402"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Competitive and distributed systems",
+			"Tip": "P",
+			"Mentor": "Milinkovic Stevan",
+			"Groups": [
+				"401",
+				"402",
+				"405"
+			],
+			"Classroom": "n",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Competitive and distributed systems",
+			"Tip": "V",
+			"Mentor": "Milojkovic Branislav",
+			"Groups": [
+				"402"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Software engineering",
+			"Tip": "V",
+			"Mentor": "Markovic Ana",
+			"Groups": [
+				"402"
+			],
+			"Classroom": "r",
+			"Duration": "4"
+		},
+		{
+			"Subject": "Competitive and distributed systems",
+			"Tip": "V",
+			"Mentor": "Milojkovic Branislav",
+			"Groups": [
+				"405"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Digital signal processing",
+			"Tip": "P",
+			"Mentor": "Babic Djorde",
+			"Groups": [
+				"405"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Digital signal processing",
+			"Tip": "V",
+			"Mentor": "Jovanovic Miljana",
+			"Groups": [
+				"405"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Dedicated computer systems",
+			"Tip": "P",
+			"Mentor": "Jovanovic Milos",
+			"Groups": [
+				"405"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		},
+		{
+			"Subject": "Dedicated computer systems",
+			"Tip": "V",
+			"Mentor": "Stambolovic Bogdana",
+			"Groups": [
+				"405"
+			],
+			"Classroom": "r",
+			"Duration": "3"
+		}
+	]
+}
