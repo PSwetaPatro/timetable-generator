@@ -46,6 +46,7 @@ def load_data(filedetails: FileDetail):
         if new_teacher not in filedetails.teachers:
             filedetails.teachers[new_teacher] = len(filedetails.teachers)
         filedetails.class_list.append(new)
+        new.id = len(filedetails.class_list)
 
     # shuffle mostly because of teachers
     random.shuffle(filedetails.class_list)

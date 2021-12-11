@@ -58,24 +58,25 @@
                                     {% for class in row %}
                                     <td style="text-align: center;">
                                         {% if class %}
+                                        {% set class = file.class_list[class-1] %}
                                         <!-- Button trigger modal -->
                                         <button type="button" class="btn btn-primary" data-toggle="modal"
                                             data-target="#file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}">
-                                            {{ class }}
+                                            {{ class.id }}
                                         </button>
 
                                         <!-- Modal -->
                                         <div class="modal fade"
-                                            id="#file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}"
+                                            id="file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}"
                                             tabindex="-1" role="dialog"
-                                            aria-labelledby="modal-file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}"
+                                            aria-labelledby="#modal-file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}"
                                             aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered" role="document">
                                                 <div class="modal-content">
                                                     <div class="modal-header">
                                                         <h5 class="modal-title"
                                                             id="modal-file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}">
-                                                            Class {{ class }} Details
+                                                            Class {{ class.id }} Details
                                                         </h5>
                                                         <button type="button" class="close" data-dismiss="modal"
                                                             aria-label="Close">
@@ -83,7 +84,14 @@
                                                         </button>
                                                     </div>
                                                     <div class="modal-body">
-                                                        ...
+                                                        <p style="text-align: left;">
+                                                            Class ID = {{ class.id }}<br>
+                                                            Subject = {{ class.subject }}<br>
+                                                            Teacher = {{ class.teacher }}<br>
+                                                            Department = {{ class.type }}<br>
+                                                            Duration = {{ class.duration }} Hrs<br>
+                                                            Batches = {{ class.groups }}
+                                                        </p>
                                                     </div>
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary"

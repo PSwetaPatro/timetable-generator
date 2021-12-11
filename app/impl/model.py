@@ -1,10 +1,11 @@
 class Class:
     def __init__(self, groups, teacher, subject, type, duration, classrooms):
+        self.id = None
         self.groups = groups
         self.teacher = teacher
         self.subject = subject
         self.type = type
-        self.duration = duration
+        self.duration = int(duration)
         self.classrooms = classrooms
 
     def __str__(self):
