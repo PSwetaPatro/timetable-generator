@@ -1,10 +1,10 @@
 {
 	"Classrooms": {
 		"a": [
-			"Atelier"
+			"WORKSHOP"
 		],
 		"k": [
-			"Kolarac"
+			"PHYSICS"
 		],
 		"n": [
 			"U1",
@@ -22,9 +22,9 @@
 	},
 	"Classes": [
 		{
-			"Subject": "Programmatically translators",
+			"Subject": "Applied Mathematics",
 			"Tip": "P",
-			"Mentor": "Vujosevic Dusan",
+			"Mentor": "Shivasis",
 			"Groups": [
 				"301",
 				"302",
@@ -41,9 +41,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Man computer interaction",
+			"Subject": "Computer Graphics",
 			"Tip": "P",
-			"Mentor": "Vujosevic Dusan",
+			"Mentor": "Himanshu",
 			"Groups": [
 				"301",
 				"302",
@@ -62,9 +62,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Machine learning",
+			"Subject": "Compiler Design",
 			"Tip": "P",
-			"Mentor": "Ilic Nemanja",
+			"Mentor": "Punit",
 			"Groups": [
 				"301",
 				"302",
@@ -75,9 +75,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Man computer interaction",
+			"Subject": "Introduction to Programming",
 			"Tip": "V",
-			"Mentor": "Radosavljevic Nemanja",
+			"Mentor": "Sai",
 			"Groups": [
 				"301",
 				"303",
@@ -88,9 +88,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Web Programming",
+			"Subject": "Foundation of Computer Science",
 			"Tip": "P",
-			"Mentor": "Vidakovic MIlan",
+			"Mentor": "Shiva",
 			"Groups": [
 				"301",
 				"303",
@@ -108,7 +108,7 @@
 		{
 			"Subject": "Web Programming",
 			"Tip": "V",
-			"Mentor": "Gavrilovic Vuk",
+			"Mentor": "Deepak",
 			"Groups": [
 				"301",
 				"303",
@@ -120,9 +120,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Programmatically translators",
+			"Subject": "Database Management Systems",
 			"Tip": "V",
-			"Mentor": "Stankovic Ivana",
+			"Mentor": "Sameer",
 			"Groups": [
 				"301",
 				"305",
@@ -132,9 +132,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Software components",
+			"Subject": "Data Structure",
 			"Tip": "P",
-			"Mentor": "Dimic Surla Bojana",
+			"Mentor": "Shivani",
 			"Groups": [
 				"301",
 				"307",
@@ -144,9 +144,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Software components",
+			"Subject": "Data Structure",
 			"Tip": "V",
-			"Mentor": "Radovic Mihailo",
+			"Mentor": "Soma",
 			"Groups": [
 				"301",
 				"307",
@@ -158,7 +158,7 @@
 		{
 			"Subject": "Machine learning",
 			"Tip": "V",
-			"Mentor": "Jovanovic Nikola",
+			"Mentor": "Sanjit",
 			"Groups": [
 				"301",
 				"308",
@@ -169,9 +169,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Genetic algorithms",
+			"Subject": "AWS",
 			"Tip": "V",
-			"Mentor": "Tomic Milan",
+			"Mentor": "Debi",
 			"Groups": [
 				"302",
 				"303"
@@ -180,9 +180,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Programmatically translators",
+			"Subject": "Database Management System",
 			"Tip": "V",
-			"Mentor": "Stankovic Ivana",
+			"Mentor": "Sameer",
 			"Groups": [
 				"302",
 				"303",
@@ -192,9 +192,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Genetic algorithms",
+			"Subject": "Computer Network",
 			"Tip": "P",
-			"Mentor": "Vasiljevic Jelena",
+			"Mentor": "Amisha",
 			"Groups": [
 				"302",
 				"303",
@@ -207,9 +207,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Functional Programming",
+			"Subject": "Computer Network",
 			"Tip": "P",
-			"Mentor": "Dimic Surla Bojana",
+			"Mentor": "Smruti",
 			"Groups": [
 				"302",
 				"304",
@@ -219,9 +219,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Functional Programming",
+			"Subject": "Artificial Intelligence",
 			"Tip": "V",
-			"Mentor": "Ciganovic Igor",
+			"Mentor": "Susant",
 			"Groups": [
 				"302",
 				"304",
@@ -231,9 +231,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Man computer interaction",
+			"Subject": "Computer Organisation",
 			"Tip": "V",
-			"Mentor": "Radosavljevic Nemanja",
+			"Mentor": "Niroja",
 			"Groups": [
 				"302",
 				"307",
@@ -243,9 +243,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Mobile application development",
+			"Subject": "Mobile Computing",
 			"Tip": "P",
-			"Mentor": "Zirojevic Nemanja",
+			"Mentor": "Sonali",
 			"Groups": [
 				"303",
 				"304",
@@ -260,9 +260,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Mobile application development",
+			"Subject": "Mobile Computing",
 			"Tip": "V",
-			"Mentor": "Kojadinovic Dragoljub",
+			"Mentor": "Monali",
 			"Groups": [
 				"303",
 				"304",
@@ -277,9 +277,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Modeling and simulation",
+			"Subject": "Digital Communication",
 			"Tip": "P",
-			"Mentor": "Jankovic Radomir",
+			"Mentor": "Srabani",
 			"Groups": [
 				"305",
 				"319",
@@ -291,9 +291,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Programmatically translators",
+			"Subject": "Computer Network",
 			"Tip": "V",
-			"Mentor": "Stankovic Ivana",
+			"Mentor": "Amisha",
 			"Groups": [
 				"306",
 				"307",
@@ -304,9 +304,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Man computer interaction",
+			"Subject": "Digital Communication",
 			"Tip": "V",
-			"Mentor": "Radosavljevic Nemanja",
+			"Mentor": "Natasha",
 			"Groups": [
 				"308",
 				"309",
@@ -318,7 +318,7 @@
 		{
 			"Subject": "Web Programming",
 			"Tip": "V",
-			"Mentor": "Gavrilovic Vuk",
+			"Mentor": "Priyanka",
 			"Groups": [
 				"308",
 				"309",
@@ -329,9 +329,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Genetic algorithms",
+			"Subject": "Digital Communication",
 			"Tip": "V",
-			"Mentor": "Tomic Milan",
+			"Mentor": "Srabani",
 			"Groups": [
 				"309",
 				"309a",
@@ -342,9 +342,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Modeling and simulation",
+			"Subject": "JavaScript",
 			"Tip": "V",
-			"Mentor": "Jankovic Radomir",
+			"Mentor": "Jyoti",
 			"Groups": [
 				"309a",
 				"324",
@@ -356,7 +356,7 @@
 		{
 			"Subject": "Network security",
 			"Tip": "P",
-			"Mentor": "Babic Djorde",
+			"Mentor": "Swati",
 			"Groups": [
 				"313",
 				"314",
@@ -371,7 +371,7 @@
 		{
 			"Subject": "Network security",
 			"Tip": "V",
-			"Mentor": "Bojovic Petar",
+			"Mentor": "Preeti",
 			"Groups": [
 				"313",
 				"314",
@@ -384,9 +384,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Data compression",
+			"Subject": "Data Science",
 			"Tip": "P",
-			"Mentor": "Vukotic Selena",
+			"Mentor": "Saroj",
 			"Groups": [
 				"313",
 				"314",
@@ -399,9 +399,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Data compression",
+			"Subject": "Data Science",
 			"Tip": "V",
-			"Mentor": "Vukotic Selena",
+			"Mentor": "Manoj",
 			"Groups": [
 				"313",
 				"314",
@@ -414,9 +414,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Coding and information theory",
+			"Subject": "Web Engineering",
 			"Tip": "P",
-			"Mentor": "Vucic Desimir",
+			"Mentor": "Abhipsa",
 			"Groups": [
 				"313",
 				"314",
@@ -429,9 +429,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Coding and information theory",
+			"Subject": "Web Engineering",
 			"Tip": "V",
-			"Mentor": "Jovanovic Miljana",
+			"Mentor": "Sunaina",
 			"Groups": [
 				"313",
 				"314",
@@ -446,7 +446,7 @@
 		{
 			"Subject": "Robotics",
 			"Tip": "P",
-			"Mentor": "Jovanovic Milos",
+			"Mentor": "Shilpa",
 			"Groups": [
 				"313",
 				"323"
@@ -457,7 +457,7 @@
 		{
 			"Subject": "Robotics",
 			"Tip": "V",
-			"Mentor": "Jovanovic Miljana",
+			"Mentor": "Srusti",
 			"Groups": [
 				"313",
 				"323"
@@ -466,9 +466,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Modeling and simulation",
+			"Subject": "Android Development",
 			"Tip": "V",
-			"Mentor": "Jankovic Radomir",
+			"Mentor": "Jhanvi",
 			"Groups": [
 				"319",
 				"323"
@@ -477,9 +477,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Data center infrastructure",
+			"Subject": "FLAT",
 			"Tip": "P",
-			"Mentor": "Martic Goran",
+			"Mentor": "Pragyan",
 			"Groups": [
 				"324",
 				"322"
@@ -488,9 +488,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Data center infrastructure",
+			"Subject": "Software Engineering",
 			"Tip": "V",
-			"Mentor": "Martic Goran",
+			"Mentor": "Ranjan",
 			"Groups": [
 				"324",
 				"322"
@@ -499,9 +499,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Graphics Design 2",
+			"Subject": "Graphics Design ",
 			"Tip": "P",
-			"Mentor": "Malesevic Nenad",
+			"Mentor": "Sasmita",
 			"Groups": [
 				"3d1"
 			],
@@ -511,7 +511,7 @@
 		{
 			"Subject": "Graphics Design 2",
 			"Tip": "V",
-			"Mentor": "Malesevic Nenad",
+			"Mentor": "Sumitra",
 			"Groups": [
 				"3d1"
 			],
@@ -519,9 +519,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Music production 3",
+			"Subject": "Information Security",
 			"Tip": "P",
-			"Mentor": "Ognjanovic Ivana",
+			"Mentor": "Rajalaxmi",
 			"Groups": [
 				"3d1"
 			],
@@ -529,9 +529,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Music production 3",
+			"Subject": "Information Security",
 			"Tip": "V",
-			"Mentor": "Ognjanovic Ivana",
+			"Mentor": "Rajalaxmi",
 			"Groups": [
 				"3d1"
 			],
@@ -541,7 +541,7 @@
 		{
 			"Subject": "Computer animation",
 			"Tip": "P",
-			"Mentor": "Djuric Milan",
+			"Mentor": "Anushree",
 			"Groups": [
 				"3d1"
 			],
@@ -551,7 +551,7 @@
 		{
 			"Subject": "Computer animation",
 			"Tip": "V",
-			"Mentor": "Djuric Milan",
+			"Mentor": "Anushree",
 			"Groups": [
 				"3d1"
 			],
@@ -559,9 +559,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Screenplay and recording book",
+			"Subject": "HTML",
 			"Tip": "P",
-			"Mentor": "Stetin Darko",
+			"Mentor": "Deepa",
 			"Groups": [
 				"3d1"
 			],
@@ -569,9 +569,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Screenplay and recording book",
+			"Subject": "HTML",
 			"Tip": "V",
-			"Mentor": "Stetin Darko",
+			"Mentor": "Deepa",
 			"Groups": [
 				"3d1"
 			],
@@ -579,9 +579,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Manage and maintain the Windows Server environment",
+			"Subject": "Software Testing",
 			"Tip": "P",
-			"Mentor": "Lale Sinisa",
+			"Mentor": "Sunidhi",
 			"Groups": [
 				"3s1"
 			],
@@ -589,9 +589,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Manage and maintain the Windows Server environment",
+			"Subject": "Software Testin",
 			"Tip": "P",
-			"Mentor": "Lale Sinisa",
+			"Mentor": "Sunidhi",
 			"Groups": [
 				"3s1"
 			],
@@ -599,9 +599,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Implementing a Microsoft ISA server",
+			"Subject": "Android Development",
 			"Tip": "P",
-			"Mentor": "Lale Sinisa",
+			"Mentor": "Prasanta ",
 			"Groups": [
 				"3s1"
 			],
@@ -609,9 +609,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Implementing a Microsoft ISA server",
+			"Subject": "Android Development",
 			"Tip": "P",
-			"Mentor": "Lale Sinisa",
+			"Mentor": "Prasanta",
 			"Groups": [
 				"3s1"
 			],
@@ -619,9 +619,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Practical security techniques in IP networks",
+			"Subject": "Electrical Technology",
 			"Tip": "P",
-			"Mentor": "Bojovic Petar",
+			"Mentor": "Subhranshu",
 			"Groups": [
 				"3s1"
 			],
@@ -629,9 +629,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Practical security techniques in IP networks",
+			"Subject": "Electrical Technology",
 			"Tip": "V",
-			"Mentor": "Jankovski Ivan",
+			"Mentor": "Asish",
 			"Groups": [
 				"3s1"
 			],
@@ -641,7 +641,7 @@
 		{
 			"Subject": "History of computer science",
 			"Tip": "P",
-			"Mentor": "Zahorjanski Miroljub",
+			"Mentor": "Sulochana",
 			"Groups": [
 				"3s1",
 				"3s2"
@@ -650,9 +650,9 @@
 			"Duration": "2"
 		},
 		{
-			"Subject": "Cloud infrastructure and service development",
+			"Subject": "Digital Communication",
 			"Tip": "P",
-			"Mentor": "Miletic Misa",
+			"Mentor": "Michael",
 			"Groups": [
 				"3s2"
 			],
@@ -660,9 +660,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Cloud infrastructure and service development",
+			"Subject": "OOPs",
 			"Tip": "V",
-			"Mentor": "Miletic Misa",
+			"Mentor": "Suchitra",
 			"Groups": [
 				"3s2"
 			],
@@ -670,9 +670,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Web application and service development",
+			"Subject": "Mathematics",
 			"Tip": "P",
-			"Mentor": "Markovic Nemanja",
+			"Mentor": "Srikant",
 			"Groups": [
 				"3s2"
 			],
@@ -680,9 +680,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Web application and service development",
+			"Subject": "Mathematics",
 			"Tip": "P",
-			"Mentor": "Markovic Nemanja",
+			"Mentor": "Sanuj",
 			"Groups": [
 				"3s2"
 			],
@@ -690,9 +690,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Microsoft data access technologies",
+			"Subject": "Data Mining",
 			"Tip": "P",
-			"Mentor": "Milosavljevic Milos",
+			"Mentor": "Smita",
 			"Groups": [
 				"3s2"
 			],
@@ -700,9 +700,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Microsoft data access technologies",
+			"Subject": "Data Warehouse",
 			"Tip": "P",
-			"Mentor": "Milosavljevic Milos",
+			"Mentor": "Deepa",
 			"Groups": [
 				"3s2"
 			],
@@ -710,9 +710,9 @@
 			"Duration": "3"
 		},
 		{
-			"Subject": "Competitive and distributed systems",
+			"Subject": "Computer Architecture",
 			"Tip": "V",
-			"Mentor": "Milojkovic Branislav",
+			"Mentor": "Balaji",
 			"Groups": [
 				"401"
 			],

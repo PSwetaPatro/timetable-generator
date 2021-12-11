@@ -8,7 +8,7 @@ The success of solution is estimated on fulfillment of given constraints and cri
 Results of testing the algorithm show that all hard constraints are satisfied, while additional criteria are optimized to a certain extent.
 
 ### Problem 
-The assignment is to find generic solution that will facilitate generating schedule for university (this specific problem is adjusted to `Faculty of Computing in Belgrade`). 
+The assignment is to find generic solution that will facilitate generating schedule for university (this specific problem is adjusted to `Faculty of Computing in COLLEGE`). 
 
 Each class on faculty is represented as block (lasts arbitrary number of hours, mostly form 1 to 4). 
 For conducting every class required are: *teacher*, *classroom*, *start time*, *duration* and *groups* which attend the class. It is also know in advance which groups attend which class and all classrooms are the same size (each group can fit to a classroom). 
