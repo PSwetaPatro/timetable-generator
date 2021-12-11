@@ -108,13 +108,10 @@ def show_timetable(filedetails: FileDetail):
         for i in range(len(filedetails.matrix[0])):
             if i == 0:
                 string = "{:17s} C{:6s}".format("", "0")
-                print(string, end="")
                 f.write(string)
             else:
                 string = "C{:6s}".format(str(i))
-                print(string, end="")
                 f.write(string)
-        print()
         f.write("\n")
 
         d_cnt = 0
@@ -123,21 +120,17 @@ def show_timetable(filedetails: FileDetail):
             day = days[d_cnt]
             hour = hours[h_cnt]
             string = "{:10s} {:2d} ->  ".format(day, hour)
-            print(string, end="")
             f.write(string)
             for j in range(len(filedetails.matrix[i])):
                 string = "{:6s} ".format(
                     str(filedetails.matrix[i][j]) if filedetails.matrix[i][j] else ""
                 )
-                print(string, end="")
                 f.write(string)
-            print()
             f.write("\n")
             h_cnt += 1
             if h_cnt == 12:
                 h_cnt = 0
                 d_cnt += 1
-                print()
                 f.write("\n")
 
     with open(f"scheduled_files/{filedetails.target_file_name}") as f:

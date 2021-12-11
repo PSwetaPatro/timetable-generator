@@ -223,8 +223,6 @@ def evolutionary_algorithm(filedetails: FileDetail):
     max_stagnation = 200
 
     for run in range(run_times):
-        print("Run {} | sigma = {}".format(run + 1, sigma))
-
         t = 0
         stagnation = 0
         cost_stats = 0
@@ -234,7 +232,6 @@ def evolutionary_algorithm(filedetails: FileDetail):
             hard_constraints_cost(filedetails)
             loss_before = filedetails.total_cost
             if loss_before == 0 and check_hard_constraints(filedetails) == 0:
-                print("Found optimal solution: \n")
                 show_timetable(filedetails)
                 break
 
@@ -278,17 +275,6 @@ def evolutionary_algorithm(filedetails: FileDetail):
                 else:
                     sigma /= 0.85
                 cost_stats = 0
-
-        print(
-            "Number of iterations: {} \nCost: {} \nTeachers cost: {} | Groups cost: {} | Classrooms cost:"
-            " {}".format(
-                t,
-                loss_after,
-                filedetails.cost_teacher,
-                filedetails.cost_group,
-                filedetails.cost_classrooms,
-            )
-        )
 
 
 def simulated_hardening(filedetails: FileDetail):
@@ -339,12 +325,10 @@ def simulated_hardening(filedetails: FileDetail):
             groups_empty_space = copy.deepcopy(old_groups_empty_space)
             teachers_empty_space = copy.deepcopy(old_teachers_empty_space)
             subjects_order = copy.deepcopy(old_subjects_order)
-        if i % 100 == 0:
-            print("Iteration: {:4d} | Average cost: {:0.8f}".format(i, curr_cost))
+        # if i % 100 == 0:
+        #     print("Iteration: {:4d} | Average cost: {:0.8f}".format(i, curr_cost))
 
-    print("TIMETABLE AFTER HARDENING")
     show_timetable(filedetails)
-    print("STATISTICS AFTER HARDENING")
     show_statistics(filedetails)
     write_solution_to_file(filedetails)
 
@@ -370,9 +354,7 @@ def main(filename: str):
     set_up(filedetails)
     initial_population(filedetails)
     hard_constraints_cost(filedetails)
-    print("Initial cost of hard constraints: {}".format(filedetails.total_cost))
     evolutionary_algorithm(filedetails)
-    # print("STATISTICS")
     # show_statistics(filedetails)
     # simulated_hardening(filedetails)
     return filedetails

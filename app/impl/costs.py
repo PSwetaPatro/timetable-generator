@@ -30,7 +30,6 @@ def subjects_order_cost(filedetails: FileDetail):
             if times[1] > times[2]:
                 cost += 1
 
-    # print(cost, total)
     return 100 * (total - cost) / total
 
 
