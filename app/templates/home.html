@@ -25,29 +25,91 @@
         {% for filename, file in filedetails.items() %}
         {% if loop.index == 1 %}
         <div id="file-{{ loop.index }}" class="tab-pane active">
-            <div class="row">
-                <div class="col-5 mycontent-left">
-                    <pre>{{ file.source_file_contents }}</pre>
-                </div>
-                <div class="col-6">
-                    <pre> {{ file.scheduled_file_contents }} </pre>
-                </div>
-            </div>
-        </div>
-        {% else %}
-        <div id="file-{{ loop.index }}" class="tab-pane fade">
-            <div class="row">
-                <div class="col-5 mycontent-left">
-                    <pre>{{ file.source_file_contents }}</pre>
-                </div>
-                <div class="col-6">
-                    <pre> {{ file.scheduled_file_contents }} </pre>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        {% endfor %}
-    </div>
-</div>
+            {% else %}
+            <div id="file-{{ loop.index }}" class="tab-pane fade">
+                {% endif %}
+                <div>
+                    <a class="btn btn-primary mt-3 mb-3" data-toggle="collapse" href="#file-source-{{ loop.index }}"
+                        role="button" aria-expanded="false" aria-controls="file-source-{{ loop.index }}">
+                        View Raw Source Data
+                    </a>
+                    <div class="collapse" id="file-source-{{ loop.index }}">
+                        <div class="card card-body">
+                            <pre>{{ file.source_file_contents }}</pre>
+                        </div>
+                    </div>
+                    <div>
+                        {% for day, matrix in file.daywise_timetable.items() %}
+                        <h3 style="width: 100%; text-align: center; color: indigo;" class="mt-2 mb-2">{{ day }}</h3>
+                        <table class="table table-sm table-stripped">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th style="text-align: center;">Period</th>
+                                    {% for _, class in file.classrooms.items() %}
+                                    <th style="text-align: center;">{{ class.name }}</th>
+                                    {% endfor %}
+                                </tr>
+                                {% for row in matrix %}
+                                <tr>
+                                    {% set row_idx = loop.index %}
+                                    <td class="bg-dark" style="color: white; text-align: center;">
+                                        {{ loop.index }} ({{ file.hours[row_idx-1] }} IST)
+                                    </td>
+                                    {% for class in row %}
+                                    <td style="text-align: center;">
+                                        {% if class %}
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}">
+                                            {{ class }}
+                                        </button>
 
-{% endblock content %}
+                                        <!-- Modal -->
+                                        <div class="modal fade"
+                                            id="#file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}"
+                                            tabindex="-1" role="dialog"
+                                            aria-labelledby="modal-file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title"
+                                                            id="modal-file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}">
+                                                            Class {{ class }} Details
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        ...
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">
+                                                            Close
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary">
+                                                            Save changes
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% endif %}
+                                    </td>
+                                    {% endfor %}
+                                </tr>
+                                {% endfor %}
+                            </thead>
+                        </table>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% endblock content %}

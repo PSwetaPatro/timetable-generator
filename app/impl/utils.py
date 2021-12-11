@@ -96,42 +96,37 @@ def set_up(filedetails: FileDetail):
     filedetails.free = free
 
 
+def day_wise_timetable(filedetails: FileDetail):
+    len_hours = len(filedetails.hours)
+    for day_idx, day_name in enumerate(filedetails.days):
+        filedetails.daywise_timetable[day_name] = filedetails.matrix[
+            day_idx * len_hours : (day_idx + 1) * len_hours
+        ]
+
+
 def show_timetable(filedetails: FileDetail):
     """
     Prints timetable matrix.
     """
+    day_wise_timetable(filedetails)
+    classname_width = 10
+    len_col = len(filedetails.matrix[0])
+    classnames = [
+        classroom.name.rjust(classname_width)
+        for classroom in filedetails.classrooms.values()
+    ]
     with open(f"scheduled_files/{filedetails.target_file_name}", "w") as f:
-        days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-        hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-
-        # print heading for classrooms
-        for i in range(len(filedetails.matrix[0])):
-            if i == 0:
-                string = "{:17s} C{:6s}".format("", "0")
-                f.write(string)
-            else:
-                string = "C{:6s}".format(str(i))
-                f.write(string)
-        f.write("\n")
-
-        d_cnt = 0
-        h_cnt = 0
-        for i in range(len(filedetails.matrix)):
-            day = days[d_cnt]
-            hour = hours[h_cnt]
-            string = "{:10s} {:2d} ->  ".format(day, hour)
-            f.write(string)
-            for j in range(len(filedetails.matrix[i])):
-                string = "{:6s} ".format(
-                    str(filedetails.matrix[i][j]) if filedetails.matrix[i][j] else ""
+        for day, matrix in filedetails.daywise_timetable.items():
+            f.write((str(day).center(7 + classname_width * len_col)) + "\n")
+            f.write(" " * 6 + ("".join(classnames)) + "\n")
+            for idx, hour in enumerate(FileDetail.hours):
+                class_list = "".join(
+                    [
+                        (str(matrix[idx]) if matrix[idx] else "").rjust(classname_width)
+                        for i in range(len_col)
+                    ]
                 )
-                f.write(string)
-            f.write("\n")
-            h_cnt += 1
-            if h_cnt == 12:
-                h_cnt = 0
-                d_cnt += 1
-                f.write("\n")
+                f.write(f"{hour:2d} -> {class_list}\n")
 
     with open(f"scheduled_files/{filedetails.target_file_name}") as f:
         filedetails.scheduled_file_contents = f.read()
@@ -196,8 +191,6 @@ def write_solution_to_file(filedetails: FileDetail):
         for group_name, group_index in filedetails.groups.items():
             if group_index not in groups_dict:
                 groups_dict[group_index] = group_name
-        days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-        hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
         f.write("\n--------------------------- SCHEDULE ---------------------------")
         for class_index, times in filedetails.filled.items():
@@ -214,11 +207,11 @@ def write_solution_to_file(filedetails: FileDetail):
             room = str(filedetails.classrooms[times[0][1]])
             f.write(
                 "\nClassroom: {:2s}\nTime: {}".format(
-                    room[: room.rfind("-")], days[times[0][0] // 12]
+                    room[: room.rfind("-")], FileDetail.days[times[0][0] // 12]
                 )
             )
             for time in times:
-                f.write(" {}".format(hours[time[0] % 12]))
+                f.write(" {}".format(FileDetail.hours[time[0] % 12]))
 
     with open("solution_files/" + filedetails.target_file_name) as f:
         filedetails.solution_file_contents = f.read()
@@ -229,38 +222,38 @@ def show_statistics(filedetails: FileDetail):
     Prints statistics.
     """
     cost_hard = check_hard_constraints(filedetails)
-    if cost_hard == 0:
-        print("Hard constraints satisfied: 100.00 %")
-    else:
-        print("Hard constraints NOT satisfied, cost: {}".format(cost_hard))
-    print(
-        "Soft constraints satisfied: {:.02f} %\n".format(
-            subjects_order_cost(filedetails)
-        )
-    )
+    # if cost_hard == 0:
+    #     print("Hard constraints satisfied: 100.00 %")
+    # else:
+    #     print("Hard constraints NOT satisfied, cost: {}".format(cost_hard))
+    # print(
+    #     "Soft constraints satisfied: {:.02f} %\n".format(
+    #         subjects_order_cost(filedetails)
+    #     )
+    # )
 
-    empty_space_groups_cost(filedetails)
-    print("TOTAL empty space for all GROUPS and all days: ", filedetails.empty_groups)
-    print("MAX empty space for GROUP in day: ", filedetails.max_empty_group)
-    print(
-        "AVERAGE empty space for GROUPS per week: {:.02f}\n".format(
-            filedetails.average_empty_groups
-        )
-    )
+    # empty_space_groups_cost(filedetails)
+    # print("TOTAL empty space for all GROUPS and all days: ", filedetails.empty_groups)
+    # print("MAX empty space for GROUP in day: ", filedetails.max_empty_group)
+    # print(
+    #     "AVERAGE empty space for GROUPS per week: {:.02f}\n".format(
+    #         filedetails.average_empty_groups
+    #     )
+    # )
 
-    empty_space_teachers_cost(filedetails)
-    print(
-        "TOTAL empty space for all TEACHERS and all days: ", filedetails.empty_teachers
-    )
-    print("MAX empty space for TEACHER in day: ", filedetails.max_empty_teacher)
-    print(
-        "AVERAGE empty space for TEACHERS per week: {:.02f}\n".format(
-            filedetails.average_empty_teachers
-        )
-    )
+    # empty_space_teachers_cost(filedetails)
+    # print(
+    #     "TOTAL empty space for all TEACHERS and all days: ", filedetails.empty_teachers
+    # )
+    # print("MAX empty space for TEACHER in day: ", filedetails.max_empty_teacher)
+    # print(
+    #     "AVERAGE empty space for TEACHERS per week: {:.02f}\n".format(
+    #         filedetails.average_empty_teachers
+    #     )
+    # )
 
-    free_hour(filedetails)
-    if filedetails.free_hours != -1:
-        print("Free term ->", filedetails.free_hours)
-    else:
-        print("NO hours without classes.")
+    # free_hour(filedetails)
+    # if filedetails.free_hours != -1:
+    #     print("Free term ->", filedetails.free_hours)
+    # else:
+    #     print("NO hours without classes.")

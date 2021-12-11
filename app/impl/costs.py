@@ -105,9 +105,6 @@ def free_hour(filedetails: FileDetail):
     """
     Checks if there is an hour without classes. If so, returns it in format 'day: hour', otherwise -1.
     """
-    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-    hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-
     for i in range(len(filedetails.matrix)):
         exists = True
         for j in range(len(filedetails.matrix[i])):
@@ -116,7 +113,9 @@ def free_hour(filedetails: FileDetail):
                 exists = False
 
         if exists:
-            filedetails.free_hours = "{}: {}".format(days[i // 12], hours[i % 12])
+            filedetails.free_hours = "{}: {}".format(
+                FileDetail.days[i // 12], FileDetail.hours[i % 12]
+            )
 
     filedetails.free_hours = -1
 

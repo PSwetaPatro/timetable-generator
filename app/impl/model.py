@@ -34,17 +34,20 @@ class Classroom:
 
 
 class FileDetail:
+    hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
     def __init__(self) -> None:
-        self.source_file_name = None
-        self.source_file_path = None
-        self.source_file_contents = None
+        self.source_file_name: str = None
+        self.source_file_path: str = None
+        self.source_file_contents: str = None
 
-        self.target_file_name = None
-        self.scheduled_file_contents = None
-        self.solution_file_contents = None
+        self.target_file_name: str = None
+        self.scheduled_file_contents: str = None
+        self.solution_file_contents: str = None
 
-        self.classes = None
-        self.classrooms = None
+        self.classes: dict = None
+        self.classrooms: dict = None
         self.teachers = None
         self.groups = None
         self.class_list = None
@@ -72,3 +75,4 @@ class FileDetail:
         self.average_empty_teachers = None
 
         self.free_hours = None
+        self.daywise_timetable = {}
