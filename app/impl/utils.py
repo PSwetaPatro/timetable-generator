@@ -38,6 +38,7 @@ def load_data(filedetails: FileDetail):
         # add groups
         for group in new_group:
             if group not in filedetails.groups:
+                filedetails.group_list.append(group)
                 filedetails.groups[group] = len(filedetails.groups)
                 # initialise for empty space of groups
                 filedetails.groups_empty_space[filedetails.groups[group]] = []

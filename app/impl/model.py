@@ -51,6 +51,7 @@ class FileDetail:
         self.classrooms: dict = None
         self.teachers = None
         self.groups = None
+        self.group_list = []
         self.class_list = None
 
         self.matrix = None

@@ -56,9 +56,11 @@
                                         {{ loop.index }} ({{ file.hours[row_idx-1] }} IST)
                                     </td>
                                     {% for class in row %}
+                                    {% if not class %}
+                                    <td></td>
+                                    {% else %}
+                                    {% set class = file.class_list[class-1] %}
                                     <td style="text-align: center;">
-                                        {% if class %}
-                                        {% set class = file.class_list[class-1] %}
                                         <!-- Button trigger modal -->
                                         <button type="button" class="btn btn-primary" data-toggle="modal"
                                             data-target="#file-{{ filename }}-{{ day }}-{{ row_idx }}-{{ loop.index }}">
@@ -90,7 +92,11 @@
                                                             Teacher = {{ class.teacher }}<br>
                                                             Department = {{ class.type }}<br>
                                                             Duration = {{ class.duration }} Hrs<br>
-                                                            Batches = {{ class.groups }}
+                                                            Batches:
+                                                            {% for group in class.groups %}
+                                                            {{ file.group_list[group] }}
+                                                            {% if loop.index != class.groups|length %},{% endif %}
+                                                            {% endfor %}
                                                         </p>
                                                     </div>
                                                     <div class="modal-footer">
@@ -105,8 +111,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        {% endif %}
                                     </td>
+                                    {% endif %}
                                     {% endfor %}
                                 </tr>
                                 {% endfor %}
