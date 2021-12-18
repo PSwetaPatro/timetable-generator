@@ -1,18 +1,18 @@
 {
 	"Classrooms": {
-		"n": [
-			"U1",
-			"U6",
-			"U8",
-			"U9",
-			"U11"
+		"Civil": [
+			"C105",
+			"C102",
+			"C108",
+			"C109",
+			"C110"
 		],
-		"r": [
-			"U2",
-			"U3",
-			"U4",
-			"U5",
-			"U7"
+		"CSE": [
+			"CS111",
+			"CS101",
+			"CS103",
+			"CS104",
+			"CS107"
 		]
 	},
 	"Classes": [
@@ -23,7 +23,7 @@
 			"Groups": [
 				"101"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -33,7 +33,7 @@
 			"Groups": [
 				"101"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -44,7 +44,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -55,7 +55,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -66,7 +66,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -77,7 +77,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -88,7 +88,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -99,7 +99,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -110,7 +110,7 @@
 				"101",
 				"102"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -120,7 +120,7 @@
 			"Groups": [
 				"102"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -130,7 +130,7 @@
 			"Groups": [
 				"102"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -140,7 +140,7 @@
 			"Groups": [
 				"103"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -150,7 +150,7 @@
 			"Groups": [
 				"103"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -161,7 +161,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -172,7 +172,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -183,7 +183,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -194,7 +194,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -205,7 +205,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -216,7 +216,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -227,7 +227,7 @@
 				"103",
 				"104"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -237,7 +237,7 @@
 			"Groups": [
 				"104"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -247,7 +247,7 @@
 			"Groups": [
 				"104"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -257,7 +257,7 @@
 			"Groups": [
 				"105"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -267,7 +267,7 @@
 			"Groups": [
 				"105"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -279,7 +279,7 @@
 				"106",
 				"107"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -291,7 +291,7 @@
 				"106",
 				"107"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -303,7 +303,7 @@
 				"106",
 				"107"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -315,7 +315,7 @@
 				"106",
 				"107"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -327,7 +327,7 @@
 				"106",
 				"107"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -339,7 +339,7 @@
 				"106",
 				"107"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -349,7 +349,7 @@
 			"Groups": [
 				"106"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -359,7 +359,7 @@
 			"Groups": [
 				"106"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -369,7 +369,7 @@
 			"Groups": [
 				"106"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -379,7 +379,7 @@
 			"Groups": [
 				"107"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -389,7 +389,7 @@
 			"Groups": [
 				"107"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -400,7 +400,7 @@
 				"107",
 				"105"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -412,7 +412,7 @@
 				"1d2",
 				"1d3"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -424,7 +424,7 @@
 				"1d2",
 				"1d3"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -436,7 +436,7 @@
 				"1d2",
 				"1d3"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -448,7 +448,7 @@
 				"1d2",
 				"1d3"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -458,7 +458,7 @@
 			"Groups": [
 				"1s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -468,7 +468,7 @@
 			"Groups": [
 				"1s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -478,7 +478,7 @@
 			"Groups": [
 				"1s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "1"
 		},
 		{
@@ -488,7 +488,7 @@
 			"Groups": [
 				"1s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -498,7 +498,7 @@
 			"Groups": [
 				"1s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -509,7 +509,7 @@
 				"1s1",
 				"1s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -520,7 +520,7 @@
 				"1s1",
 				"1s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -531,7 +531,7 @@
 				"1s1",
 				"1s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -541,7 +541,7 @@
 			"Groups": [
 				"1s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -551,7 +551,7 @@
 			"Groups": [
 				"1s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -561,7 +561,7 @@
 			"Groups": [
 				"1s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "1"
 		},
 		{
@@ -571,7 +571,7 @@
 			"Groups": [
 				"1s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -581,7 +581,7 @@
 			"Groups": [
 				"1s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -591,7 +591,7 @@
 			"Groups": [
 				"201"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -601,7 +601,7 @@
 			"Groups": [
 				"201"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -611,7 +611,7 @@
 			"Groups": [
 				"201"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -621,7 +621,7 @@
 			"Groups": [
 				"201"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -632,7 +632,7 @@
 				"201",
 				"202"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -643,7 +643,7 @@
 				"201",
 				"202"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -653,7 +653,7 @@
 			"Groups": [
 				"202"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -663,7 +663,7 @@
 			"Groups": [
 				"202"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -673,7 +673,7 @@
 			"Groups": [
 				"202"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -683,7 +683,7 @@
 			"Groups": [
 				"202"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -693,7 +693,7 @@
 			"Groups": [
 				"203"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -703,7 +703,7 @@
 			"Groups": [
 				"203"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -713,7 +713,7 @@
 			"Groups": [
 				"203"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -723,7 +723,7 @@
 			"Groups": [
 				"203"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -735,7 +735,7 @@
 				"204",
 				"205"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -747,7 +747,7 @@
 				"204",
 				"205"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -757,7 +757,7 @@
 			"Groups": [
 				"204"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -767,7 +767,7 @@
 			"Groups": [
 				"204"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -777,7 +777,7 @@
 			"Groups": [
 				"204"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -787,7 +787,7 @@
 			"Groups": [
 				"204"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -797,7 +797,7 @@
 			"Groups": [
 				"205"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -807,7 +807,7 @@
 			"Groups": [
 				"205"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -817,7 +817,7 @@
 			"Groups": [
 				"205"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -827,7 +827,7 @@
 			"Groups": [
 				"205"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -837,7 +837,7 @@
 			"Groups": [
 				"210"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -847,7 +847,7 @@
 			"Groups": [
 				"210"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -857,7 +857,7 @@
 			"Groups": [
 				"210"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -868,7 +868,7 @@
 				"210",
 				"211"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -879,7 +879,7 @@
 				"210",
 				"211"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -890,7 +890,7 @@
 				"210",
 				"211"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -901,7 +901,7 @@
 				"210",
 				"211"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -911,7 +911,7 @@
 			"Groups": [
 				"211"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -921,7 +921,7 @@
 			"Groups": [
 				"211"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -931,7 +931,7 @@
 			"Groups": [
 				"211"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -941,7 +941,7 @@
 			"Groups": [
 				"2d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -951,7 +951,7 @@
 			"Groups": [
 				"2d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -961,7 +961,7 @@
 			"Groups": [
 				"2s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -971,7 +971,7 @@
 			"Groups": [
 				"2s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -981,7 +981,7 @@
 			"Groups": [
 				"2s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -991,7 +991,7 @@
 			"Groups": [
 				"2s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1001,7 +1001,7 @@
 			"Groups": [
 				"2s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1012,7 +1012,7 @@
 				"2s1",
 				"2s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1023,7 +1023,7 @@
 				"2s1",
 				"2s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1033,7 +1033,7 @@
 			"Groups": [
 				"2s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1043,7 +1043,7 @@
 			"Groups": [
 				"2s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1053,7 +1053,7 @@
 			"Groups": [
 				"2s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1063,7 +1063,7 @@
 			"Groups": [
 				"2s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1073,7 +1073,7 @@
 			"Groups": [
 				"2s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1092,7 +1092,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1105,7 +1105,7 @@
 				"306",
 				"308"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1118,7 +1118,7 @@
 				"304",
 				"305"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1136,7 +1136,7 @@
 				"319",
 				"322"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1150,7 +1150,7 @@
 				"307",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1162,7 +1162,7 @@
 				"305",
 				"308"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1174,7 +1174,7 @@
 				"307",
 				"309a"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1186,7 +1186,7 @@
 				"307",
 				"309a"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1199,7 +1199,7 @@
 				"302",
 				"306"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1210,7 +1210,7 @@
 				"302",
 				"303"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1222,7 +1222,7 @@
 				"303",
 				"304"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1237,7 +1237,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1249,7 +1249,7 @@
 				"304",
 				"309"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1261,7 +1261,7 @@
 				"304",
 				"309"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1273,7 +1273,7 @@
 				"307",
 				"306"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1290,7 +1290,7 @@
 				"313",
 				"314"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1307,7 +1307,7 @@
 				"313",
 				"314"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1321,7 +1321,7 @@
 				"309a",
 				"324"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1334,7 +1334,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1346,7 +1346,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1359,7 +1359,7 @@
 				"314",
 				"319"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1372,7 +1372,7 @@
 				"305",
 				"306"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1384,7 +1384,7 @@
 				"324",
 				"305"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1399,7 +1399,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1414,7 +1414,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1429,7 +1429,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1444,7 +1444,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1459,7 +1459,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1474,7 +1474,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1485,7 +1485,7 @@
 				"313",
 				"323"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1496,7 +1496,7 @@
 				"313",
 				"323"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1507,7 +1507,7 @@
 				"319",
 				"323"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1518,7 +1518,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1529,7 +1529,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1549,7 +1549,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1559,7 +1559,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1569,7 +1569,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1579,7 +1579,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1589,7 +1589,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1599,7 +1599,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1609,7 +1609,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1619,7 +1619,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1629,7 +1629,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1640,7 +1640,7 @@
 				"3s1",
 				"3s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -1650,7 +1650,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1660,7 +1660,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1670,7 +1670,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1680,7 +1680,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1690,7 +1690,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1700,7 +1700,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1710,7 +1710,7 @@
 			"Groups": [
 				"401"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1720,7 +1720,7 @@
 			"Groups": [
 				"401"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "4"
 		},
 		{
@@ -1731,7 +1731,7 @@
 				"401",
 				"402"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "4"
 		},
 		{
@@ -1742,7 +1742,7 @@
 				"401",
 				"402"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1753,7 +1753,7 @@
 				"401",
 				"402"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1765,7 +1765,7 @@
 				"402",
 				"405"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -1775,7 +1775,7 @@
 			"Groups": [
 				"402"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1785,7 +1785,7 @@
 			"Groups": [
 				"402"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "4"
 		},
 		{
@@ -1795,7 +1795,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1805,7 +1805,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1815,7 +1815,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1825,7 +1825,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -1835,7 +1835,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		}
 	]

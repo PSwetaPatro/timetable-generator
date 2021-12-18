@@ -1,23 +1,23 @@
 {
 	"Classrooms": {
-		"a": [
-			"WORKSHOP"
+		"Mechanic": [
+			"M206"
 		],
-		"k": [
-			"PHYSICS"
+		"Electrical": [
+			"E201"
 		],
-		"n": [
-			"U1",
-			"U8"
+		"Civil": [
+			"C105",
+			"C108"
 		],
-		"r": [
-			"U3",
-			"U4",
-			"U5",
-			"U7"
+		"CSE": [
+			"CS101",
+			"CS103",
+			"CS104",
+			"CS107"
 		],
-		"s": [
-			"Studio"
+		"IT": [
+			"IT205"
 		]
 	},
 	"Classes": [
@@ -37,7 +37,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -58,7 +58,7 @@
 				"2s1",
 				"2s2"
 			],
-			"Classroom": "k",
+			"Classroom": "Electrical",
 			"Duration": "2"
 		},
 		{
@@ -71,7 +71,7 @@
 				"306",
 				"308"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -84,7 +84,7 @@
 				"304",
 				"305"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -102,7 +102,7 @@
 				"319",
 				"322"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -116,7 +116,7 @@
 				"307",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -128,7 +128,7 @@
 				"305",
 				"308"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -140,7 +140,7 @@
 				"307",
 				"309a"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -152,7 +152,7 @@
 				"307",
 				"309a"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -165,7 +165,7 @@
 				"302",
 				"306"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -176,7 +176,7 @@
 				"302",
 				"303"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -188,7 +188,7 @@
 				"303",
 				"304"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -203,7 +203,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -215,7 +215,7 @@
 				"304",
 				"309"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -227,7 +227,7 @@
 				"304",
 				"309"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -239,7 +239,7 @@
 				"307",
 				"306"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -256,7 +256,7 @@
 				"313",
 				"314"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -273,7 +273,7 @@
 				"313",
 				"314"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -287,7 +287,7 @@
 				"309a",
 				"324"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -300,7 +300,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -312,7 +312,7 @@
 				"309",
 				"309a"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -325,7 +325,7 @@
 				"314",
 				"319"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -338,7 +338,7 @@
 				"305",
 				"306"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -350,7 +350,7 @@
 				"324",
 				"305"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -365,7 +365,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -380,7 +380,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -395,7 +395,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -410,7 +410,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -425,7 +425,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -440,7 +440,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -451,7 +451,7 @@
 				"313",
 				"323"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -462,7 +462,7 @@
 				"313",
 				"323"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -473,7 +473,7 @@
 				"319",
 				"323"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -484,7 +484,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -495,7 +495,7 @@
 				"324",
 				"322"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "2"
 		},
 		{
@@ -505,7 +505,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -515,7 +515,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "a",
+			"Classroom": "Mechanic",
 			"Duration": "3"
 		},
 		{
@@ -525,7 +525,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "s",
+			"Classroom": "IT",
 			"Duration": "3"
 		},
 		{
@@ -535,7 +535,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "s",
+			"Classroom": "IT",
 			"Duration": "3"
 		},
 		{
@@ -545,7 +545,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -555,7 +555,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -565,7 +565,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "a",
+			"Classroom": "Mechanic",
 			"Duration": "3"
 		},
 		{
@@ -575,7 +575,7 @@
 			"Groups": [
 				"3d1"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -585,7 +585,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -595,7 +595,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -605,7 +605,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -615,7 +615,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -625,7 +625,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -635,7 +635,7 @@
 			"Groups": [
 				"3s1"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -646,7 +646,7 @@
 				"3s1",
 				"3s2"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "2"
 		},
 		{
@@ -656,7 +656,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -666,7 +666,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -676,7 +676,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -686,7 +686,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -696,7 +696,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -706,7 +706,7 @@
 			"Groups": [
 				"3s2"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -716,7 +716,7 @@
 			"Groups": [
 				"401"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -726,7 +726,7 @@
 			"Groups": [
 				"401"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "4"
 		},
 		{
@@ -737,7 +737,7 @@
 				"401",
 				"402"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "4"
 		},
 		{
@@ -748,7 +748,7 @@
 				"401",
 				"402"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -759,7 +759,7 @@
 				"401",
 				"402"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -771,7 +771,7 @@
 				"402",
 				"405"
 			],
-			"Classroom": "n",
+			"Classroom": "Civil",
 			"Duration": "3"
 		},
 		{
@@ -781,7 +781,7 @@
 			"Groups": [
 				"402"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -791,7 +791,7 @@
 			"Groups": [
 				"402"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "4"
 		},
 		{
@@ -801,7 +801,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -811,7 +811,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -821,7 +821,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -831,7 +831,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		},
 		{
@@ -841,7 +841,7 @@
 			"Groups": [
 				"405"
 			],
-			"Classroom": "r",
+			"Classroom": "CSE",
 			"Duration": "3"
 		}
 	]
